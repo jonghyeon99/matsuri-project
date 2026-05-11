@@ -122,20 +122,20 @@ def parse_detail_page(detail_id: int) -> dict | None:
     return {
         "detail_id":      detail_id,
         "source_url":     url,
-        "name_ja":        text("h1, .event-title"),
+        "name_jp":        text("h1, .event-title"),
         "furigana":       text(".furigana, .kana"),
-        "city_ja":        text(".city, .area"),
+        "city_jp":        text(".city, .area"),
         "is_ended":       is_ended,
         "image_urls":     ",".join(image_urls),
-        "short_desc_ja":  text(".short-desc, .lead"),
-        "long_desc_ja":   text(".detail-body, .description"),
-        "event_dates_ja": outline.get("開催日", ""),
-        "event_time_ja":  outline.get("開催時間", ""),
-        "venue_ja":       outline.get("開催場所", ""),
-        "address_ja":     outline.get("所在地", ""),
+        "short_desc_jp":  text(".short-desc, .lead"),
+        "long_desc_jp":   text(".detail-body, .description"),
+        "event_dates_jp": outline.get("開催日", ""),
+        "event_time_jp":  outline.get("開催時間", ""),
+        "venue_jp":       outline.get("開催場所", ""),
+        "address_jp":     outline.get("所在地", ""),
         "contact":        outline.get("お問い合わせ", ""),
-        "access_train_ja": access_train,
-        "access_car_ja":   access_car,
+        "access_train_jp": access_train,
+        "access_car_jp":   access_car,
         "related_url":     related_url,
         "crawled_at":      datetime.now(),
     }
@@ -143,70 +143,70 @@ def parse_detail_page(detail_id: int) -> dict | None:
 
 def translate_event(event: dict, translator: deepl.Translator) -> dict:
     fields_to_translate = [
-        "name_ja", "city_ja", "short_desc_ja", "long_desc_ja",
-        "event_dates_ja", "event_time_ja", "venue_ja", "address_ja",
-        "access_train_ja", "access_car_ja",
+        "name_jp", "city_jp", "short_desc_jp", "long_desc_jp",
+        "event_dates_jp", "event_time_jp", "venue_jp", "address_jp",
+        "access_train_jp", "access_car_jp",
     ]
     for field in fields_to_translate:
         src = event.get(field, "")
         if not src:
-            event[field.replace("_ja", "_ko")] = ""
+            event[field.replace("_jp", "_ko")] = ""
             continue
         try:
             result = translator.translate_text(src, source_lang="JA", target_lang="KO")
-            event[field.replace("_ja", "_ko")] = result.text
+            event[field.replace("_jp", "_ko")] = result.text
         except Exception as e:
             log.warning(f"번역 실패 ({field}): {e}")
-            event[field.replace("_ja", "_ko")] = ""
+            event[field.replace("_jp", "_ko")] = ""
     return event
 
 
 UPSERT_SQL = """
-MERGE INTO festivals f
+MERGE INTO matsuris m
 USING (SELECT :detail_id AS detail_id FROM dual) src
-ON (f.detail_id = src.detail_id)
+ON (m.detail_id = src.detail_id)
 WHEN MATCHED THEN UPDATE SET
-    name_ja          = :name_ja,
+    name_jp          = :name_jp,
     name_ko          = :name_ko,
     furigana         = :furigana,
-    city_ja          = :city_ja,
+    city_jp          = :city_jp,
     city_ko          = :city_ko,
     is_ended         = :is_ended,
     image_urls       = :image_urls,
-    short_desc_ja    = :short_desc_ja,
+    short_desc_jp    = :short_desc_jp,
     short_desc_ko    = :short_desc_ko,
-    long_desc_ja     = :long_desc_ja,
+    long_desc_jp     = :long_desc_jp,
     long_desc_ko     = :long_desc_ko,
-    event_dates_ja   = :event_dates_ja,
+    event_dates_jp   = :event_dates_jp,
     event_dates_ko   = :event_dates_ko,
-    event_time_ja    = :event_time_ja,
+    event_time_jp    = :event_time_jp,
     event_time_ko    = :event_time_ko,
-    venue_ja         = :venue_ja,
+    venue_jp         = :venue_jp,
     venue_ko         = :venue_ko,
-    address_ja       = :address_ja,
+    address_jp       = :address_jp,
     address_ko       = :address_ko,
     contact          = :contact,
-    access_train_ja  = :access_train_ja,
+    access_train_jp  = :access_train_jp,
     access_train_ko  = :access_train_ko,
-    access_car_ja    = :access_car_ja,
+    access_car_jp    = :access_car_jp,
     access_car_ko    = :access_car_ko,
     related_url      = :related_url,
     crawled_at       = :crawled_at
 WHEN NOT MATCHED THEN INSERT (
-    detail_id, source_url, name_ja, name_ko, furigana,
-    city_ja, city_ko, is_ended, image_urls,
-    short_desc_ja, short_desc_ko, long_desc_ja, long_desc_ko,
-    event_dates_ja, event_dates_ko, event_time_ja, event_time_ko,
-    venue_ja, venue_ko, address_ja, address_ko, contact,
-    access_train_ja, access_train_ko, access_car_ja, access_car_ko,
+    detail_id, source_url, name_jp, name_ko, furigana,
+    city_jp, city_ko, is_ended, image_urls,
+    short_desc_jp, short_desc_ko, long_desc_jp, long_desc_ko,
+    event_dates_jp, event_dates_ko, event_time_jp, event_time_ko,
+    venue_jp, venue_ko, address_jp, address_ko, contact,
+    access_train_jp, access_train_ko, access_car_jp, access_car_ko,
     related_url, crawled_at
 ) VALUES (
-    :detail_id, :source_url, :name_ja, :name_ko, :furigana,
-    :city_ja, :city_ko, :is_ended, :image_urls,
-    :short_desc_ja, :short_desc_ko, :long_desc_ja, :long_desc_ko,
-    :event_dates_ja, :event_dates_ko, :event_time_ja, :event_time_ko,
-    :venue_ja, :venue_ko, :address_ja, :address_ko, :contact,
-    :access_train_ja, :access_train_ko, :access_car_ja, :access_car_ko,
+    :detail_id, :source_url, :name_jp, :name_ko, :furigana,
+    :city_jp, :city_ko, :is_ended, :image_urls,
+    :short_desc_jp, :short_desc_ko, :long_desc_jp, :long_desc_ko,
+    :event_dates_jp, :event_dates_ko, :event_time_jp, :event_time_ko,
+    :venue_jp, :venue_ko, :address_jp, :address_ko, :contact,
+    :access_train_jp, :access_train_ko, :access_car_jp, :access_car_ko,
     :related_url, :crawled_at
 )
 """
@@ -223,7 +223,7 @@ def get_target_months(mode: str = "full") -> list[tuple[int, int]]:
         return [(2026, m) for m in range(1, 13)]
     else:
         months = []
-        for i in range(6):
+        for i in range(3):
             d = today + relativedelta(months=i)
             months.append((d.year, d.month))
         return months
@@ -246,7 +246,7 @@ def run(mode: str = "full"):
         event = translate_event(event, translator)
         save_to_db(event, conn)
         success += 1
-        log.info(f"저장 완료: {event['name_ja']} (id={detail_id})")
+        log.info(f"저장 완료: {event['name_jp']} (id={detail_id})")
         time.sleep(REQUEST_DELAY)
 
     conn.close()
