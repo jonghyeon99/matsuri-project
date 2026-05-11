@@ -1,0 +1,17 @@
+# Python
+crawler/venv/
+__pycache__/
+*.pyc
+.env
+
+# Node
+frontend/node_modules/
+frontend/.next/
+
+# 환경변수 (API 키, DB 비밀번호)
+.env
+.env.local
+*.env
+
+# OS
+.DS_Store
