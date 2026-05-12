@@ -1,7 +1,7 @@
 """
 아이치나우 마츠리 크롤러
 - 최초 실행: 2026년 1~12월 전체 수집
-- 이후: 3개월마다 앞으로 6개월치 UPDATE
+- 이후: 매달 20일에 앞으로 3개월치 UPDATE (crontab으로 자동화 할 예정)
 """
 
 import requests
@@ -14,10 +14,8 @@ from datetime import datetime, date
 from dateutil.relativedelta import relativedelta
 from dotenv import load_dotenv
 import os
+import re
 
-# ─────────────────────────────────────────
-# 설정
-# ─────────────────────────────────────────
 load_dotenv()
 
 BASE_URL = "https://aichinow.pref.aichi.jp"
@@ -27,7 +25,6 @@ DB_CONFIG = {
     "password": os.getenv("DB_PASSWORD"),
     "dsn": os.getenv("DB_DSN"),
 }
-
 REQUEST_DELAY = 1.5
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"
@@ -37,6 +34,9 @@ logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(mess
 log = logging.getLogger(__name__)
 
 
+# ─────────────────────────────────────────
+# 1단계: 캘린더에서 detail ID 수집
+# ─────────────────────────────────────────
 def fetch_detail_ids_for_month(year: int, month: int) -> set[int]:
     url = f"{BASE_URL}/events/calendar/{year}-{month:02d}-01/"
     try:
@@ -48,7 +48,7 @@ def fetch_detail_ids_for_month(year: int, month: int) -> set[int]:
 
     soup = BeautifulSoup(res.text, "html.parser")
     ids = set()
-    for a in soup.select("a[href*='/spots/detail/']"):
+    for a in soup.select("a[href*='/events/detail/']"):
         href = a["href"]
         parts = href.strip("/").split("/")
         try:
@@ -71,8 +71,41 @@ def collect_all_ids(months: list[tuple[int, int]]) -> set[int]:
     return all_ids
 
 
+# ─────────────────────────────────────────
+# 날짜 파싱
+# ─────────────────────────────────────────
+def parse_dates(date_str: str):
+    if not date_str:
+        return None, None
+    try:
+        year_match = re.search(r'(\d{4})年', date_str)
+        year = int(year_match.group(1)) if year_match else date.today().year
+
+        month_day_pairs = re.findall(r'(\d{1,2})月(\d{1,2})日', date_str)
+        if not month_day_pairs:
+            return None, None
+
+        first_month = int(month_day_pairs[0][0])
+        first_day   = int(month_day_pairs[0][1])
+        start_date  = date(year, first_month, first_day)
+
+        if len(month_day_pairs) >= 2:
+            last_month = int(month_day_pairs[-1][0])
+            last_day   = int(month_day_pairs[-1][1])
+            end_date   = date(year, last_month, last_day)
+        else:
+            end_date = start_date
+
+        return start_date, end_date
+    except Exception:
+        return None, None
+
+
+# ─────────────────────────────────────────
+# 2단계: 상세 페이지 파싱
+# ─────────────────────────────────────────
 def parse_detail_page(detail_id: int) -> dict | None:
-    url = f"{BASE_URL}/spots/detail/{detail_id}/"
+    url = f"{BASE_URL}/events/detail/{detail_id}/"
     try:
         res = requests.get(url, headers=HEADERS, timeout=10)
         res.raise_for_status()
@@ -86,137 +119,183 @@ def parse_detail_page(detail_id: int) -> dict | None:
         el = soup.select_one(selector)
         return el.get_text(strip=True) if el else default
 
+    # 종료 여부
     is_ended = bool(soup.find(string=lambda s: s and "終了しました" in s))
 
-    image_urls = [
-        img["src"] for img in soup.select(".swiper-slide img[src]")
-        if img.get("src")
-    ]
+    # 이름, 도시
+    name_jp  = text("h2.mainimg-ttl")
+    city_el  = soup.select_one("p.mainimg-area span")
+    city_jp  = city_el.get_text(strip=True) if city_el else ""
 
-    outline = {}
-    for row in soup.select(".outline tr, table tr"):
+    # 날짜
+    event_dates_jp = ""
+    for p in soup.select("div.mainimg-item p"):
+        t = p.get_text(strip=True)
+        if "年" in t and "月" in t and "日" in t:
+            event_dates_jp = t
+            break
+
+    # 이미지
+    image_urls = []
+    for img in soup.select("div.gallery-main ul.swiper-wrapper li.swiper-slide figure img"):
+        src = img.get("src", "")
+        if src and not src.startswith("/assets"):
+            if src.startswith("/"):
+                src = BASE_URL + src
+            image_urls.append(src)
+
+    # 설명
+    short_desc_jp = text("section.detail-top p.c-txt")
+    long_desc_jp  = text("div.c-con")
+
+    # 기본정보 테이블
+    event_time_jp = ""
+    venue_jp      = ""
+    address_jp    = ""
+    contact       = ""
+    for row in soup.select("div._basic table tr"):
         cells = row.select("th, td")
         if len(cells) >= 2:
             key = cells[0].get_text(strip=True)
             val = cells[1].get_text(strip=True)
-            outline[key] = val
+            if "開催時間" in key:
+                event_time_jp = val[:500]
+            elif "開催場所" in key or "会場" in key:
+                venue_jp = val[:200]
+            elif "所在地" in key:
+                address_jp = val[:200]
+            elif "問い合わせ" in key or "問合" in key:
+                contact = val[:200]
 
-    access_train = ""
-    access_car = ""
-    for item in soup.select(".access-item, .access li"):
-        t = item.get_text(strip=True)
-        if "電車" in t or "駅" in t:
-            access_train = t
-        elif "車" in t or "IC" in t or "高速" in t:
-            access_car = t
+    # 교통편
+    access_train_jp = ""
+    access_car_jp   = ""
+    for dl in soup.select("div._access div.access-way dl"):
+        dd = dl.select_one("dd")
+        if not dd:
+            continue
+        if dl.select_one("i.ico-train"):
+            access_train_jp = dd.get_text(strip=True)[:300]
+        elif dl.select_one("i.ico-car"):
+            access_car_jp = dd.get_text(strip=True)[:300]
 
+    # 관련 사이트
     related_url = ""
-    related_section = soup.find(string=lambda s: s and "関連サイト" in s)
-    if related_section:
-        parent = related_section.find_parent()
-        if parent:
-            a = parent.find_next("a", href=True)
-            if a:
-                related_url = a["href"]
+    link_el = soup.select_one("div._links ul.links-list li a")
+    if link_el:
+        related_url = link_el.get("href", "")
+
+    # 날짜 파싱
+    start_date, end_date = parse_dates(event_dates_jp)
 
     return {
-        "detail_id":      detail_id,
-        "source_url":     url,
-        "name_jp":        text("h1, .event-title"),
-        "furigana":       text(".furigana, .kana"),
-        "city_jp":        text(".city, .area"),
-        "is_ended":       is_ended,
-        "image_urls":     ",".join(image_urls),
-        "short_desc_jp":  text(".short-desc, .lead"),
-        "long_desc_jp":   text(".detail-body, .description"),
-        "event_dates_jp": outline.get("開催日", ""),
-        "event_time_jp":  outline.get("開催時間", ""),
-        "venue_jp":       outline.get("開催場所", ""),
-        "address_jp":     outline.get("所在地", ""),
-        "contact":        outline.get("お問い合わせ", ""),
-        "access_train_jp": access_train,
-        "access_car_jp":   access_car,
+        "detail_id":       detail_id,
+        "source_url":      url,
+        "name_jp":         name_jp,
+        "city_jp":         city_jp,
+        "is_ended":        is_ended,
+        "image_urls":      ",".join(image_urls),
+        "short_desc_jp":   short_desc_jp[:500] if short_desc_jp else "",
+        "long_desc_jp":    long_desc_jp[:3000] if long_desc_jp else "",
+        "event_dates_jp":  event_dates_jp,
+        "event_time_jp":   event_time_jp,
+        "venue_jp":        venue_jp,
+        "address_jp":      address_jp,
+        "contact":         contact,
+        "access_train_jp": access_train_jp,
+        "access_car_jp":   access_car_jp,
         "related_url":     related_url,
+        "start_date":      start_date,
+        "end_date":        end_date,
         "crawled_at":      datetime.now(),
     }
 
 
-def translate_event(event: dict, translator: deepl.Translator) -> dict:
+# ─────────────────────────────────────────
+# 3단계: DeepL 번역 후 _jp 키를 _ko로 변환
+# ─────────────────────────────────────────
+def translate_event(event: dict, translator: deepl.DeepLClient) -> dict:
     fields_to_translate = [
         "name_jp", "city_jp", "short_desc_jp", "long_desc_jp",
         "event_dates_jp", "event_time_jp", "venue_jp", "address_jp",
         "access_train_jp", "access_car_jp",
     ]
+    translated = {}
     for field in fields_to_translate:
         src = event.get(field, "")
+        ko_field = field.replace("_jp", "_ko")
         if not src:
-            event[field.replace("_jp", "_ko")] = ""
+            translated[ko_field] = ""
             continue
         try:
             result = translator.translate_text(src, source_lang="JA", target_lang="KO")
-            event[field.replace("_jp", "_ko")] = result.text
+            translated[ko_field] = result.text
         except Exception as e:
             log.warning(f"번역 실패 ({field}): {e}")
-            event[field.replace("_jp", "_ko")] = ""
-    return event
+            translated[ko_field] = ""
+    return translated
 
 
+# ─────────────────────────────────────────
+# 4단계: Oracle DB 저장 (_ko 필드만)
+# ─────────────────────────────────────────
 UPSERT_SQL = """
 MERGE INTO matsuris m
 USING (SELECT :detail_id AS detail_id FROM dual) src
 ON (m.detail_id = src.detail_id)
 WHEN MATCHED THEN UPDATE SET
-    name_jp          = :name_jp,
     name_ko          = :name_ko,
-    furigana         = :furigana,
-    city_jp          = :city_jp,
     city_ko          = :city_ko,
     is_ended         = :is_ended,
     image_urls       = :image_urls,
-    short_desc_jp    = :short_desc_jp,
     short_desc_ko    = :short_desc_ko,
-    long_desc_jp     = :long_desc_jp,
     long_desc_ko     = :long_desc_ko,
-    event_dates_jp   = :event_dates_jp,
     event_dates_ko   = :event_dates_ko,
-    event_time_jp    = :event_time_jp,
     event_time_ko    = :event_time_ko,
-    venue_jp         = :venue_jp,
     venue_ko         = :venue_ko,
-    address_jp       = :address_jp,
     address_ko       = :address_ko,
     contact          = :contact,
-    access_train_jp  = :access_train_jp,
     access_train_ko  = :access_train_ko,
-    access_car_jp    = :access_car_jp,
     access_car_ko    = :access_car_ko,
     related_url      = :related_url,
+    start_date       = :start_date,
+    end_date         = :end_date,
     crawled_at       = :crawled_at
 WHEN NOT MATCHED THEN INSERT (
-    detail_id, source_url, name_jp, name_ko, furigana,
-    city_jp, city_ko, is_ended, image_urls,
-    short_desc_jp, short_desc_ko, long_desc_jp, long_desc_ko,
-    event_dates_jp, event_dates_ko, event_time_jp, event_time_ko,
-    venue_jp, venue_ko, address_jp, address_ko, contact,
-    access_train_jp, access_train_ko, access_car_jp, access_car_ko,
-    related_url, crawled_at
+    detail_id, source_url, name_ko, city_ko, is_ended, image_urls,
+    short_desc_ko, long_desc_ko, event_dates_ko, event_time_ko,
+    venue_ko, address_ko, contact, access_train_ko, access_car_ko,
+    related_url, start_date, end_date, crawled_at
 ) VALUES (
-    :detail_id, :source_url, :name_jp, :name_ko, :furigana,
-    :city_jp, :city_ko, :is_ended, :image_urls,
-    :short_desc_jp, :short_desc_ko, :long_desc_jp, :long_desc_ko,
-    :event_dates_jp, :event_dates_ko, :event_time_jp, :event_time_ko,
-    :venue_jp, :venue_ko, :address_jp, :address_ko, :contact,
-    :access_train_jp, :access_train_ko, :access_car_jp, :access_car_ko,
-    :related_url, :crawled_at
+    :detail_id, :source_url, :name_ko, :city_ko, :is_ended, :image_urls,
+    :short_desc_ko, :long_desc_ko, :event_dates_ko, :event_time_ko,
+    :venue_ko, :address_ko, :contact, :access_train_ko, :access_car_ko,
+    :related_url, :start_date, :end_date, :crawled_at
 )
 """
 
-def save_to_db(event: dict, conn):
+
+def save_to_db(event: dict, translated: dict, conn):
+    data = {
+        "detail_id":      event["detail_id"],
+        "source_url":     event["source_url"],
+        "is_ended":       event["is_ended"],
+        "image_urls":     event["image_urls"],
+        "contact":        event["contact"],
+        "related_url":    event["related_url"],
+        "start_date":     event["start_date"],
+        "end_date":       event["end_date"],
+        "crawled_at":     event["crawled_at"],
+        **translated,
+    }
     with conn.cursor() as cur:
-        cur.execute(UPSERT_SQL, event)
+        cur.execute(UPSERT_SQL, data)
     conn.commit()
 
 
+# ─────────────────────────────────────────
+# 메인 실행
+# ─────────────────────────────────────────
 def get_target_months(mode: str = "full") -> list[tuple[int, int]]:
     today = date.today()
     if mode == "full":
@@ -234,7 +313,7 @@ def run(mode: str = "full"):
     months = get_target_months(mode)
     all_ids = collect_all_ids(months)
 
-    translator = deepl.Translator(DEEPL_API_KEY)
+    translator = deepl.DeepLClient(DEEPL_API_KEY)
     conn = oracledb.connect(**DB_CONFIG)
 
     success, fail = 0, 0
@@ -243,10 +322,10 @@ def run(mode: str = "full"):
         if not event:
             fail += 1
             continue
-        event = translate_event(event, translator)
-        save_to_db(event, conn)
+        translated = translate_event(event, translator)
+        save_to_db(event, translated, conn)
         success += 1
-        log.info(f"저장 완료: {event['name_jp']} (id={detail_id})")
+        log.info(f"저장 완료: {translated.get('name_ko', '')} (id={detail_id})")
         time.sleep(REQUEST_DELAY)
 
     conn.close()

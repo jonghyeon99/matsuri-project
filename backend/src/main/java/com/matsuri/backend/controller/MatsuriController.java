@@ -4,6 +4,7 @@ import com.matsuri.backend.entity.Matsuri;
 import com.matsuri.backend.repository.MatsuriRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
+import java.time.LocalDate;
 import java.util.List;
 
 @RestController
@@ -25,5 +26,17 @@ public class MatsuriController {
     public Matsuri getById(@PathVariable Long id) {
         return matsuriRepository.findById(id)
                 .orElseThrow(() -> new RuntimeException("Matsuri not found"));
+    }
+
+    // 진행 중인 마츠리
+    @GetMapping("/ongoing")
+    public List<Matsuri> getOngoing() {
+        return matsuriRepository.findOngoing(LocalDate.now());
+    }
+
+    // 예정된 마츠리
+    @GetMapping("/upcoming")
+    public List<Matsuri> getUpcoming() {
+        return matsuriRepository.findUpcoming(LocalDate.now());
     }
 }

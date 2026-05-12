@@ -17,4 +17,4 @@ frontend/.next/
 .DS_Store
 
 # Backend
-**/application.yml
+**/application.yaml
