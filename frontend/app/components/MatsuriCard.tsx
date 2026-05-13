@@ -9,7 +9,10 @@ interface Props {
 }
 
 export default function MatsuriCard({ matsuri: m, onClick, compact }: Props) {
-    const imageUrl = m.imageUrls?.split(",")[0] || "";
+    const imageUrl = m.imageUrls
+    ?.split(",")
+    .filter(Boolean)
+    .find(url => !url.includes("link_languages")) || "";
 
     return (
         <div

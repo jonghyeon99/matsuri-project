@@ -105,7 +105,9 @@ export default function RegionClient({ cities }: Props) {
                             gridTemplateColumns: "repeat(auto-fill, minmax(260px, 1fr))",
                             gap: 20,
                         }}>
-                            {matsuris.map(m => (
+                            {matsuris
+                                .filter(m => m.shortDescKo && m.shortDescKo.trim() !== "")
+                                .map(m => (
                                 <MatsuriCard key={m.id} matsuri={m} onClick={() => setOpenMatsuri(m)} />
                             ))}
                         </div>

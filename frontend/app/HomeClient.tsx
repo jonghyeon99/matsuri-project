@@ -13,7 +13,9 @@ interface Props {
 
 export default function HomeClient({ ongoing, upcoming }: Props) {
     const [openMatsuri, setOpenMatsuri] = useState<Matsuri | null>(null);
-    const sliderMatsuris = ongoing.slice(0, 6);
+    const sliderMatsuris = ongoing
+                            .filter(m => m.shortDescKo && m.shortDescKo.trim() !== "")                                
+                            .slice(0, 6);
 
     return (
         <div style={{ maxWidth: 1280, margin: "0 auto", padding: "32px 24px 80px" }}>
@@ -105,7 +107,9 @@ export default function HomeClient({ ongoing, upcoming }: Props) {
                         gridTemplateColumns: "repeat(auto-fill, minmax(260px, 1fr))",
                         gap: 20,
                     }}>
-                        {upcoming.slice(0, 8).map((m) => (
+                        {upcoming.slice(0, 8)
+                            .filter(m => m.shortDescKo && m.shortDescKo.trim() !== "")
+                            .map((m) => (
                             <MatsuriCard key={m.id} matsuri={m} onClick={() => setOpenMatsuri(m)} />
                         ))}
                     </div>

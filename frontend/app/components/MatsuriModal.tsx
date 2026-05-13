@@ -9,8 +9,11 @@ interface Props {
 }
 
 export default function MatsuriModal({ matsuri: m, onClose }: Props) {
-    const images = m.imageUrls?.split(",").filter(Boolean) || [];
-
+    const images = m.imageUrls
+    ?.split(",")
+    .filter(Boolean)
+    .filter(url => !url.includes("link_languages")) || [];
+    
     useEffect(() => {
         const handler = (e: KeyboardEvent) => {
             if (e.key === "Escape") onClose();
