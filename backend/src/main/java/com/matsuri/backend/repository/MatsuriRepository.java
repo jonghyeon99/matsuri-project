@@ -18,4 +18,16 @@ public interface MatsuriRepository extends JpaRepository<Matsuri, Long> {
     // 오늘 이후 예정된 마츠리
     @Query("SELECT m FROM Matsuri m WHERE m.startDate > :today AND m.isEnded = 0 ORDER BY m.startDate ASC")
     List<Matsuri> findUpcoming(@Param("today") LocalDate today);
+
+    // 도시별 마츠리 목록
+    @Query("SELECT m FROM Matsuri m WHERE m.cityKo = :city AND m.isEnded = 0 ORDER BY m.startDate ASC")
+    List<Matsuri> findByCity(@Param("city") String city);
+
+    // 도시 목록 (중복 제거)
+    @Query("SELECT DISTINCT m.cityKo FROM Matsuri m WHERE m.cityKo IS NOT NULL ORDER BY m.cityKo ASC")
+    List<String> findAllCities();
+
+    // 특정 날짜에 진행 중인 마츠리
+    @Query("SELECT m FROM Matsuri m WHERE m.startDate <= :date AND m.endDate >= :date AND m.isEnded = 0 ORDER BY m.startDate ASC")
+    List<Matsuri> findByDate(@Param("date") LocalDate date);
 }

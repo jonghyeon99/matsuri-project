@@ -50,3 +50,24 @@ export async function fetchUpcoming(): Promise<Matsuri[]> {
   if (!res.ok) throw new Error("Failed to fetch upcoming matsuris");
   return res.json();
 }
+
+// 도시 목록
+export async function fetchCities(): Promise<string[]> {
+    const res = await fetch(`${API_BASE}/api/matsuris/cities`);
+    if (!res.ok) throw new Error("Failed to fetch cities");
+    return res.json();
+}
+
+// 도시별 마츠리
+export async function fetchByCity(city: string): Promise<Matsuri[]> {
+    const res = await fetch(`${API_BASE}/api/matsuris/city/${encodeURIComponent(city)}`);
+    if (!res.ok) throw new Error("Failed to fetch by city");
+    return res.json();
+}
+
+// 날짜별 마츠리
+export async function fetchByDate(date: string): Promise<Matsuri[]> {
+    const res = await fetch(`${API_BASE}/api/matsuris/date/${date}`);
+    if (!res.ok) throw new Error("Failed to fetch by date");
+    return res.json();
+}
