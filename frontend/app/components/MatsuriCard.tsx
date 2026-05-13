@@ -52,33 +52,32 @@ export default function MatsuriCard({ matsuri: m, onClick, compact }: Props) {
             borderRadius: 2,
           }}>종료</div>
         )}
-
-        {/* 이름 */}
-        <div style={{
-          position: "absolute", left: 14, bottom: 12, right: 14,
-          color: "var(--washi)",
-        }}>
-          <div style={{ fontFamily: "Shippori Mincho, serif", fontSize: 11, opacity: 0.85, letterSpacing: "0.1em" }}>
-            {m.nameJp}
-          </div>
-          <div style={{ fontSize: compact ? 15 : 17, fontWeight: 700, marginTop: 2, lineHeight: 1.3 }}>
-            {m.nameKo}
-          </div>
-        </div>
       </div>
 
       {/* 카드 내용 */}
       <div style={{ padding: "14px 16px 16px" }}>
-        <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline", marginBottom: 8 }}>
-          <div style={{ fontSize: 12, color: "var(--red-deep)", fontWeight: 600 }}>
-            📅 {m.eventDatesKo || m.eventDatesJp || "-"}
-          </div>
-          <div style={{ fontSize: 11, color: "var(--ink-faint)" }}>
-            📍 {m.cityKo || m.cityJp || "-"}
-          </div>
+        {/* 이름 */}
+        <div style={{
+            fontWeight: 700,
+            fontSize: 15,
+            lineHeight: 1.4,
+            marginBottom: 10,
+            color: "var(--sumi)",
+        }}>
+            {m.nameKo}
+        </div>
+        <div style={{ marginBottom: 8 }}>
+            {/* 날짜 */}
+            <div style={{ fontSize: 12, color: "var(--red-deep)", fontWeight: 600, marginBottom: 4 }}>
+                📅 {m.eventDatesKo || "-"}
+            </div>
+            {/* 도시 */}
+            <div style={{ fontSize: 11, color: "var(--ink-faint)", marginBottom: 8 }}>
+                📍 {m.cityKo || "-"}
+            </div>
         </div>
         <p style={{ fontSize: 12.5, lineHeight: 1.6, color: "var(--sumi-2)" }}>
-          {m.shortDescKo || m.shortDescJp || ""}
+            {m.shortDescKo || ""}
         </p>
       </div>
     </div>

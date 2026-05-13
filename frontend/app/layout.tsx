@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Noto_Sans_KR } from "next/font/google";
 import "./globals.css";
 import Header from "./components/Header";
+import MatsuriDecor from "./components/MatsuriDecor";
 
 const notoSansKR = Noto_Sans_KR({
   subsets: ["latin"],
@@ -33,6 +34,7 @@ export default function RootLayout({
         />
       </head>
       <body className={notoSansKR.className}>
+        <MatsuriDecor />
         <Header />
         {children}
       </body>

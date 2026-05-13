@@ -22,7 +22,9 @@ export default function Header() {
       <div style={{
         maxWidth: 1280, margin: "0 auto",
         padding: "14px 24px",
-        display: "flex", alignItems: "center", justifyContent: "space-between",
+        display: "grid",
+        gridTemplateColumns: "1fr auto 1fr",
+        alignItems: "center",
         gap: 16,
       }}>
         {/* 로고 */}
@@ -38,7 +40,7 @@ export default function Header() {
           </div>
         </Link>
 
-        {/* 탭 네비게이션 */}
+        {/* 탭 네비게이션 - 중앙 */}
         <nav style={{ display: "flex", gap: 6 }}>
           {tabs.map(t => {
             const active = pathname === t.href;
@@ -55,8 +57,8 @@ export default function Header() {
                   display: "block",
                 }}
               >
-                <div style={{ fontFamily: "Shippori Mincho, serif", fontSize: 13, opacity: 0.6 }}>{t.jp}</div>
-                <div style={{ fontSize: 14, fontWeight: 600, marginTop: 1 }}>{t.ko}</div>
+                <div style={{ fontFamily: "Shippori Mincho, serif", fontSize: 13, opacity: 0.6, textAlign: "center" }}>{t.jp}</div>
+                <div style={{ fontSize: 14, fontWeight: 600, marginTop: 1, textAlign: "center" }}>{t.ko}</div>
                 {active && (
                   <div style={{
                     position: "absolute", left: 16, right: 16, bottom: -1, height: 3,
@@ -69,9 +71,16 @@ export default function Header() {
           })}
         </nav>
 
-        <button className="btn ghost" style={{ fontSize: 12, padding: "8px 12px" }}>
-          🔍 검색
-        </button>
+        {/* 검색 버튼 - 오른쪽 */}
+        <div style={{ display: "flex", justifyContent: "flex-end" }}>
+          <button className="btn ghost" style={{ fontSize: 13, padding: "8px 14px", display: "flex", alignItems: "center", gap: 6 }}>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <circle cx="11" cy="11" r="8"/>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"/>
+            </svg>
+            검색
+          </button>
+        </div>
       </div>
     </header>
   );
