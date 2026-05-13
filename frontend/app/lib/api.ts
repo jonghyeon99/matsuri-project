@@ -4,31 +4,22 @@ export interface Matsuri {
   id: number;
   detailId: number;
   sourceUrl: string;
-  nameJp: string;
   nameKo: string;
-  furigana: string;
-  cityJp: string;
   cityKo: string;
   isEnded: number;
   imageUrls: string;
-  shortDescJp: string;
   shortDescKo: string;
-  longDescJp: string;
   longDescKo: string;
-  eventDatesJp: string;
   eventDatesKo: string;
-  eventTimeJp: string;
   eventTimeKo: string;
-  venueJp: string;
   venueKo: string;
-  addressJp: string;
   addressKo: string;
   contact: string;
-  accessTrainJp: string;
   accessTrainKo: string;
-  accessCarJp: string;
   accessCarKo: string;
   relatedUrl: string;
+  startDate: string;
+  endDate: string;
   crawledAt: string;
 }
 
@@ -43,5 +34,19 @@ export async function fetchMatsuris(): Promise<Matsuri[]> {
 export async function fetchMatsuri(id: number): Promise<Matsuri> {
   const res = await fetch(`${API_BASE}/api/matsuris/${id}`);
   if (!res.ok) throw new Error("Failed to fetch matsuri");
+  return res.json();
+}
+
+// 진행 중인 마츠리
+export async function fetchOngoing(): Promise<Matsuri[]> {
+  const res = await fetch(`${API_BASE}/api/matsuris/ongoing`);
+  if (!res.ok) throw new Error("Failed to fetch ongoing matsuris");
+  return res.json();
+}
+
+// 예정된 마츠리
+export async function fetchUpcoming(): Promise<Matsuri[]> {
+  const res = await fetch(`${API_BASE}/api/matsuris/upcoming`);
+  if (!res.ok) throw new Error("Failed to fetch upcoming matsuris");
   return res.json();
 }
