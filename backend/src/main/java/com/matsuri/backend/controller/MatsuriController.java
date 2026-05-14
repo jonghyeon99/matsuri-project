@@ -39,4 +39,29 @@ public class MatsuriController {
     public List<Matsuri> getUpcoming() {
         return matsuriRepository.findUpcoming(LocalDate.now());
     }
+
+    // 도시 목록
+    @GetMapping("/cities")
+    public List<String> getCities() {
+        return matsuriRepository.findAllCities();
+    }
+
+    // 도시별 마츠리
+    @GetMapping("/city/{city}")
+    public List<Matsuri> getByCity(@PathVariable String city) {
+        return matsuriRepository.findByCity(city);
+    }
+
+    // 날짜별 마츠리
+    @GetMapping("/date/{date}")
+    public List<Matsuri> getByDate(@PathVariable String date) {
+        LocalDate localDate = LocalDate.parse(date);
+        return matsuriRepository.findByDate(localDate);
+    }
+
+    // 검색 기능
+    @GetMapping("/search")
+    public List<Matsuri> search(@RequestParam String keyword) {
+        return matsuriRepository.findByKeyword(keyword);
+    }
 }

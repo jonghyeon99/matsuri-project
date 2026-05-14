@@ -5,9 +5,10 @@ import { Matsuri } from "../lib/api";
 
 interface Props {
     matsuris: Matsuri[];
+    onOpen?: (m: Matsuri) => void;
 }
 
-export default function MatsuriSlider({ matsuris }: Props) {
+export default function MatsuriSlider({ matsuris, onOpen }: Props) {
     const [idx, setIdx] = useState(0);
     const [paused, setPaused] = useState(false);
 
@@ -41,10 +42,12 @@ export default function MatsuriSlider({ matsuris }: Props) {
             {/* 슬라이드 카드 */}
             <div
                 className="washi-card scale-in"
+                onClick={() => onOpen?.(m)}
                 style={{
                     display: "flex",
                     overflow: "hidden",
                     height: 420,
+                    cursor: onOpen ? "pointer" : "default",
                 }}
             >
                 {/* 이미지 영역 - 왼쪽 고정 너비 */}
