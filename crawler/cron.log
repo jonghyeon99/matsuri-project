@@ -1,0 +1,1002 @@
+2026-05-14 16:51:01,333 INFO 크롤러 시작 (mode=full)
+2026-05-14 16:51:02,009 INFO 2026-01: 147개 이벤트 발견
+2026-05-14 16:51:04,096 INFO 2026-02: 168개 이벤트 발견
+2026-05-14 16:51:06,145 INFO 2026-03: 178개 이벤트 발견
+2026-05-14 16:51:08,314 INFO 2026-04: 171개 이벤트 발견
+2026-05-14 16:51:10,343 INFO 2026-05: 131개 이벤트 발견
+2026-05-14 16:51:12,266 INFO 2026-06: 63개 이벤트 발견
+2026-05-14 16:51:14,070 INFO 2026-07: 23개 이벤트 발견
+2026-05-14 16:51:15,915 INFO 2026-08: 16개 이벤트 발견
+2026-05-14 16:51:17,715 INFO 2026-09: 13개 이벤트 발견
+2026-05-14 16:51:19,522 INFO 2026-10: 11개 이벤트 발견
+2026-05-14 16:51:21,290 INFO 2026-11: 8개 이벤트 발견
+2026-05-14 16:51:23,085 INFO 2026-12: 3개 이벤트 발견
+2026-05-14 16:51:24,591 INFO 총 478개 고유 이벤트 수집
+2026-05-14 16:51:25,708 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:51:27,515 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:51:27,576 INFO 저장 완료: 겨울 기획전 '제44회 히나인형전' (id=2048)
+2026-05-14 16:51:29,419 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:51:30,045 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:51:30,074 INFO 저장 완료: 하문 절분 축제 (id=2049)
+2026-05-14 16:51:31,951 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:51:32,836 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:51:32,849 INFO 저장 완료: 토미카 프라레일 페스티벌 in 일본 원숭이 공원 (id=4097)
+2026-05-14 16:51:34,685 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:51:35,444 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:51:35,462 INFO 저장 완료: 이세만 페리로 특별한 배 여행을! 도바⇔센트레아 특별 운항 (id=4071)
+2026-05-14 16:51:37,287 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:51:38,694 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:51:38,703 INFO 저장 완료: 로하스 가든 마르쉐 (id=4098)
+2026-05-14 16:51:40,528 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:51:41,197 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:51:41,225 INFO 저장 완료: D1 그랑프리 시리즈 1차전&2차전 2026 AICHI DRIFT (id=4096)
+2026-05-14 16:51:43,066 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:51:44,123 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:51:44,141 INFO 저장 완료: 토비시마 야카리 (id=4099)
+2026-05-14 16:51:45,974 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:51:46,759 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:51:46,776 INFO 저장 완료: 캇타니 벚꽃 축제(가메조 공원) (id=2056)
+2026-05-14 16:51:48,614 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:51:49,929 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:51:49,985 INFO 저장 완료: 제16회 후쿠요세히나 (id=2059)
+2026-05-14 16:51:51,806 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:51:52,416 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:51:52,444 INFO 저장 완료: 하네다 하치만구 세츠분 축제 (id=2063)
+2026-05-14 16:51:54,279 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:51:55,251 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:51:55,258 INFO 저장 완료: 키네코사 축제 (id=2064)
+2026-05-14 16:51:57,203 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:51:57,844 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:51:57,850 INFO 저장 완료: 자카사 지혜문수 축제 (id=2065)
+2026-05-14 16:51:59,713 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:52:00,812 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:52:00,823 INFO 저장 완료: 아이치 목장 눈 축제 (id=2066)
+2026-05-14 16:52:02,673 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:52:03,650 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:52:03,659 INFO 저장 완료: 후쿠스이나리고리 고야쿠시 (id=3057)
+2026-05-14 16:52:05,519 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:52:06,550 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:52:06,557 INFO 저장 완료: 제2회 오토메쎄 in 아이치 2026 (id=4076)
+2026-05-14 16:52:08,388 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:52:09,095 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:52:09,102 INFO 저장 완료: 수이토피아 강남 벚꽃축제 (id=2041)
+2026-05-14 16:52:10,960 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:52:12,170 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:52:12,183 INFO 저장 완료: 백조 정원 벚꽃놀이 (id=2078)
+2026-05-14 16:52:14,018 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:52:15,034 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:52:15,059 INFO 저장 완료: 구 혼다 다다지 저택의 히나마쓰리 축제 (id=2081)
+2026-05-14 16:52:16,922 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:52:17,730 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:52:17,742 INFO 저장 완료: 토요타의 매력 발견 투어 '옛날로 타임슬립! 한 것 같은 당일치기 체험 버스투어" (id=4077)
+2026-05-14 16:52:19,596 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:52:20,559 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:52:20,577 INFO 저장 완료: 아이치항공박물관 개관 8주년 특별기획전 「일본의 비행선 - 그 역사와 구조비행선 US-2의 모든 것」을 개최합니다. (id=3108)
+2026-05-14 16:52:22,429 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:52:23,442 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:52:23,453 INFO 저장 완료: 베티의 집 아사히 공원 벚꽃 축제 (id=1060)
+2026-05-14 16:52:25,285 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:52:26,215 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:52:26,228 INFO 저장 완료: 반다 붉은 벽돌 건물의 복숭아절 스테인드글라스 히나마츠리 전시회 (id=4078)
+2026-05-14 16:52:28,064 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:52:28,681 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:52:28,687 INFO 저장 완료: 야마자키강의 벚꽃 (id=2085)
+2026-05-14 16:52:30,533 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:52:31,239 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:52:31,246 INFO 저장 완료: 타키가미 벚꽃 축제 (id=2043)
+2026-05-14 16:52:33,086 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:52:34,499 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:52:34,512 INFO 저장 완료: 오카다 봄 축제 (id=2086)
+2026-05-14 16:52:36,342 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:52:37,120 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:52:37,125 INFO 저장 완료: 동해 플라워쇼 2026 (id=1066)
+2026-05-14 16:52:39,064 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:52:40,212 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:52:40,221 INFO 저장 완료: 나고야성 봄 축제 (id=2091)
+2026-05-14 16:52:42,065 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:52:42,701 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:52:42,708 INFO 저장 완료: 도쿠가와엔의 초봄 행사 (id=2092)
+2026-05-14 16:52:44,540 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:52:45,971 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:52:45,991 INFO 저장 완료: 봄의 개산성 유람선 (id=2093)
+2026-05-14 16:52:47,825 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:52:48,604 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:52:48,615 INFO 저장 완료: 히쵸의 오마카토 축제 (id=2087)
+2026-05-14 16:52:50,459 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:52:51,138 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:52:51,146 INFO 저장 완료: 기요스성 벚꽃 축제 (id=2095)
+2026-05-14 16:52:52,989 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:52:54,407 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:52:54,686 INFO 저장 완료: 오부 칠복신 순례 (id=1073)
+2026-05-14 16:52:56,530 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:52:57,237 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:52:57,271 INFO 저장 완료: 하츠츠키시치샤 신사 오만토 축제 (id=2097)
+2026-05-14 16:52:59,113 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:53:00,078 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:53:00,089 INFO 저장 완료: 야다의 덕분 (id=2099)
+2026-05-14 16:53:01,981 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:53:02,610 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:53:02,622 INFO 저장 완료: 꽃의 유연성 축제 (id=2100)
+2026-05-14 16:53:04,561 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:53:05,537 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:53:05,543 INFO 저장 완료: 신 SAKE SQUARE 2026 〜신 사케 스퀘어 2026〜신 사케 스퀘어 2026 (id=4081)
+2026-05-14 16:53:07,374 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:53:08,014 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:53:08,022 INFO 저장 완료: 무로하치만구 절분제 (id=2046)
+2026-05-14 16:53:09,845 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:53:10,956 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:53:10,970 INFO 저장 완료: 아그리 스테이션 나구라 봄 축제 (id=2101)
+2026-05-14 16:53:12,849 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:53:14,211 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:53:14,219 INFO 저장 완료: 오이케 공원 벚꽃 축제 (id=2104)
+2026-05-14 16:53:16,074 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:53:17,100 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:53:17,113 INFO 저장 완료: 나고야 여성 마라톤 2026 (id=57)
+2026-05-14 16:53:18,955 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:53:19,762 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:53:19,771 INFO 저장 완료: 오스 관음 절분회 (id=58)
+2026-05-14 16:53:21,591 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:53:22,628 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:53:22,636 INFO 저장 완료: 나가오 지구 '샹기리 축제' (id=2103)
+2026-05-14 16:53:24,479 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:53:25,596 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:53:25,602 INFO 저장 완료: 오오노미치 라이트업 (id=2107)
+2026-05-14 16:53:27,452 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:53:28,502 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:53:28,511 INFO 저장 완료: 히가시우라마치 대축제 (id=1083)
+2026-05-14 16:53:30,358 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:53:31,380 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:53:31,388 INFO 저장 완료: 시노시마 다이묘 행렬 (id=1086)
+2026-05-14 16:53:33,245 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:53:33,876 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:53:33,882 INFO 저장 완료: ANIMAN~봄의 향연 2026 (id=2111)
+2026-05-14 16:53:35,807 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:53:36,621 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:53:36,633 INFO 저장 완료: 온조 축제 (id=2108)
+2026-05-14 16:53:38,481 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:53:39,578 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:53:39,584 INFO 저장 완료: 모리츠의 등나무 등나무 모임 (id=2113)
+2026-05-14 16:53:41,425 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:53:42,090 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:53:42,099 INFO 저장 완료: 제25회 도예의 도시 세토의 히나미 순례 (id=1090)
+2026-05-14 16:53:43,978 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:53:44,604 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:53:44,616 INFO 저장 완료: 제392회 이누야마 축제 (id=67)
+2026-05-14 16:53:46,460 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:53:47,670 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:53:47,682 INFO 저장 완료: 기소가와 가마우지 유람 (id=68)
+2026-05-14 16:53:49,529 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:53:50,239 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:53:50,245 INFO 저장 완료: 제61회 고난 등나무 축제 (id=69)
+2026-05-14 16:53:52,100 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:53:52,940 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:53:52,949 INFO 저장 완료: 전현신사 풍년제 (id=70)
+2026-05-14 16:53:54,808 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:53:55,696 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:53:55,706 INFO 저장 완료: 이와쿠라 벚꽃 축제 (id=71)
+2026-05-14 16:53:57,548 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:53:58,625 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:53:58,637 INFO 저장 완료: 메이지 시대의 수수께끼를 푸는 어트랙션 '에도가와 란포와 불가사의한 잔상 ~ 세 가지의 공백~' (id=3143)
+2026-05-14 16:54:00,481 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:54:01,178 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:54:01,188 INFO 저장 완료: 오와리쓰시마 등나무 축제(덴노가와 공원) (id=74)
+2026-05-14 16:54:03,010 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:54:04,100 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:54:04,106 INFO 저장 완료: 오현 신사 '풍년제' (id=2125)
+2026-05-14 16:54:06,006 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:54:07,172 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:54:07,185 INFO 저장 완료: 사광원 초관음기도회 대제전 (id=3150)
+2026-05-14 16:54:09,044 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:54:09,835 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:54:09,846 INFO 저장 완료: 니시오의 텐테코 축제 (id=1103)
+2026-05-14 16:54:11,673 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:54:12,287 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:54:12,297 INFO 저장 완료: 오카자키 성 아래 배놀이 (id=2126)
+2026-05-14 16:54:14,123 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:54:15,183 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:54:15,193 INFO 저장 완료: 가스가이시도풍기념관 소장품전 '그 땅을 생각하며 붓을 든다' (id=1105)
+2026-05-14 16:54:17,039 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:54:17,676 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:54:17,681 INFO 저장 완료: 제23회 안성 연날리기 대회 (id=3154)
+2026-05-14 16:54:19,537 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:54:20,948 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:54:20,958 INFO 저장 완료: 도코나메의 수레 축제・봄 축제 (id=81)
+2026-05-14 16:54:22,839 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:54:23,618 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:54:23,630 INFO 저장 완료: 지타시제 시행 55주년 기념 제35회 사부리이케 매화축제 (id=84)
+2026-05-14 16:54:25,469 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:54:26,526 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:54:26,539 INFO 저장 완료: 사자키 사와키사 요시나가 축제 (id=85)
+2026-05-14 16:54:28,389 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:54:29,642 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:54:29,648 INFO 저장 완료: 도요타시립미술관 전시회 「타카시마노쥬로 사후 50년전」전(타카시마노쥬로展) (id=2134)
+2026-05-14 16:54:31,531 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:54:32,754 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:54:32,770 INFO 저장 완료: 제35회 대부盆梅展 (id=3159)
+2026-05-14 16:54:34,623 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:54:35,420 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:54:35,427 INFO 저장 완료: 나가쿠사텐진자 도부로쿠 축제 (id=3160)
+2026-05-14 16:54:37,250 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:54:38,505 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:54:38,514 INFO 저장 완료: 카지시마 갯벌체험 (id=2132)
+2026-05-14 16:54:40,362 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:54:41,416 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:54:41,437 INFO 저장 완료: 138타워파크 벚꽃축제 (id=2135)
+2026-05-14 16:54:43,248 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:54:44,749 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:54:44,773 INFO 저장 완료: 타키야마사 도깨비 축제 (id=91)
+2026-05-14 16:54:46,598 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:54:47,301 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:54:47,307 INFO 저장 완료: 마쓰다이라 도쇼구 곤겐마츠리(봄 축제) (id=2133)
+2026-05-14 16:54:49,137 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:54:49,859 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:54:49,868 INFO 저장 완료: 2026 벚꽃 플라워 페스타 (id=4089)
+2026-05-14 16:54:51,740 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:54:53,203 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:54:53,218 INFO 저장 완료: 레고랜드® 재팬 '고 풀 닌자 트레이닝 아카데미 2026' (id=3166)
+2026-05-14 16:54:55,045 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:54:56,275 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:54:56,288 INFO 저장 완료: 봄의 꽃 축제 ~나노하나 사쿠라 (id=2143)
+2026-05-14 16:54:58,130 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:54:59,446 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:54:59,455 INFO 저장 완료: 모리타 아지노칸 사케와 음악의 테루아 Vol.7 (id=1120)
+2026-05-14 16:55:01,351 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:55:02,161 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:55:02,198 INFO 저장 완료: 아쓰미반도 유채꽃 축제 (id=1121)
+2026-05-14 16:55:04,044 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:55:04,906 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:55:04,913 INFO 저장 완료: 농업문화원 토다가와 녹지 봄 이야기 (id=2145)
+2026-05-14 16:55:06,801 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:55:07,892 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:55:07,899 INFO 저장 완료: 아라시가와 공원 벚꽃 축제 (id=2146)
+2026-05-14 16:55:09,724 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:55:10,681 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:55:10,689 INFO 저장 완료: 광도원 등나무 축제 (id=92)
+2026-05-14 16:55:12,556 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:55:13,481 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:55:13,487 INFO 저장 완료: 이와사키성 봄 축제 (id=1124)
+2026-05-14 16:55:15,384 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:55:16,396 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:55:16,422 INFO 저장 완료: 세토 오모테나시 관광 택시 투어 (id=3174)
+2026-05-14 16:55:18,281 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:55:19,293 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:55:19,305 INFO 저장 완료: 가와메노 매화 축제 (id=1126)
+2026-05-14 16:55:21,129 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:55:22,743 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:55:22,754 INFO 저장 완료: 미나미치타 비치랜드 & 미나미치타 장난감 왕국 20주년 기념 이벤트 봄 한정 돌고래 쇼 'SPLAP(스플랩)' 개최 (id=4091)
+2026-05-14 16:55:24,613 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:55:25,395 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:55:25,403 INFO 저장 완료: 캇타니 벚꽃 축제(스하라 공원) (id=1127)
+2026-05-14 16:55:27,229 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:55:28,068 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:55:28,080 INFO 저장 완료: 제50회 오쿠라 공원 철쭉 축제 (id=2152)
+2026-05-14 16:55:29,907 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:55:31,139 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:55:31,148 INFO 저장 완료: 오케사마 고전장 축제 (id=1122)
+2026-05-14 16:55:33,011 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:55:34,026 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:55:34,031 INFO 저장 완료: 오야마 천송이 벚꽃 라이트업 (id=2156)
+2026-05-14 16:55:35,883 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:55:37,205 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:55:37,214 INFO 저장 완료: 다카하마시 도자기의 고장 가와라 미술관・도서관 기획전 「오오무라 유키노展 - 씰 아트의 세계-」(오오무라 유키노展 - 씰 아트의 세계-) (id=3181)
+2026-05-14 16:55:39,085 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:55:39,829 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:55:39,846 INFO 저장 완료: 제54회 이나자와 나무심기 축제~그린 페스티벌 (id=1132)
+2026-05-14 16:55:41,737 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:55:42,506 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:55:42,515 INFO 저장 완료: 히라도바시 벚꽃 축제 2026 (id=2159)
+2026-05-14 16:55:44,344 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:55:45,191 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:55:45,198 INFO 저장 완료: NHK 대하드라마 특별전 "도요토미 형제!" (id=4092)
+2026-05-14 16:55:47,045 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:55:48,240 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:55:48,254 INFO 저장 완료: 시마즈루의 새해맞이 스페셜 스테이지 (id=3185)
+2026-05-14 16:55:50,080 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:55:51,415 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:55:51,424 INFO 저장 완료: 봄의 수레 축제 (id=2161)
+2026-05-14 16:55:53,269 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:55:54,333 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:55:54,339 INFO 저장 완료: 토요타 가드닝 페스타 2026 (id=2166)
+2026-05-14 16:55:56,241 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:55:56,914 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:55:56,922 INFO 저장 완료: 애기터널군 봄맞이 특별 공개 (id=2167)
+2026-05-14 16:55:58,747 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:55:59,799 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:56:00,390 INFO 저장 완료: 고로모자키 조개잡이터 (id=1144)
+2026-05-14 16:56:02,250 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:56:03,091 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:56:03,117 INFO 저장 완료: 차臼山高原スキー場 (id=1146)
+2026-05-14 16:56:04,989 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:56:06,148 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:56:06,158 INFO 저장 완료: 니시후루토바 해안 갯벌 체험 (id=1148)
+2026-05-14 16:56:08,003 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:56:08,822 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:56:08,828 INFO 저장 완료: 히가시루바시해안・마에지마 갯벌체험 (id=1149)
+2026-05-14 16:56:10,653 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:56:11,382 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:56:11,390 INFO 저장 완료: 서포해안 갯벌체험(마에노지리 해안, 송도 어장) (id=1150)
+2026-05-14 16:56:13,229 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:56:14,250 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:56:14,260 INFO 저장 완료: 세계 코스프레 서밋 2026 (id=124)
+2026-05-14 16:56:16,091 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:56:17,115 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:56:17,126 INFO 저장 완료: 가스가우라 해안(가하라 해안) 조개잡이 체험 (id=1152)
+2026-05-14 16:56:18,954 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:56:19,619 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:56:19,626 INFO 저장 완료: 죽도 해안 갯벌체험 (id=1153)
+2026-05-14 16:56:21,481 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:56:22,472 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:56:22,485 INFO 저장 완료: 물의 신 조개잡이 (id=1154)
+2026-05-14 16:56:24,305 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:56:24,973 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:56:24,982 INFO 저장 완료: 미타니 온천 해안 갯벌체험 (id=1155)
+2026-05-14 16:56:26,941 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:56:27,868 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:56:27,876 INFO 저장 완료: 소중산지구 해안 갯벌 체험 (id=1156)
+2026-05-14 16:56:29,725 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:56:30,837 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:56:30,847 INFO 저장 완료: 벨기에 비어 위크엔드 2026 나고야 (id=2177)
+2026-05-14 16:56:32,686 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:56:33,730 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:56:33,736 INFO 저장 완료: 아이치현립미술관 기획전 '가타가와 쿠니요시전-기재 화가의 마력' (id=3206)
+2026-05-14 16:56:35,587 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:56:36,981 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:56:36,987 INFO 저장 완료: 전일본 우마이모노마츠리 2026 in 모리코로 공원 (id=2178)
+2026-05-14 16:56:38,823 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:56:40,529 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:56:40,541 INFO 저장 완료: 안城市歴史博物館企画展「石川丈山 -家康の近侍から文人へ-」展 (id=2875)
+2026-05-14 16:56:42,487 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:56:43,921 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:56:43,928 INFO 저장 완료: 봉납 이와쓰텐진 우는 스모 (id=2181)
+2026-05-14 16:56:45,796 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:56:47,017 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:56:47,024 INFO 저장 완료: 마라톤 EXPO 2026 (id=2186)
+2026-05-14 16:56:48,857 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:56:49,681 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:56:49,689 INFO 저장 완료: 라그코스 2026 쁘띠 (id=3211)
+2026-05-14 16:56:51,521 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:56:52,751 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:56:52,763 INFO 저장 완료: 닌교코지 꽃 축제 (id=2183)
+2026-05-14 16:56:54,584 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:56:55,614 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:56:55,621 INFO 저장 완료: 다하라 연 축제 (id=2187)
+2026-05-14 16:56:57,479 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:56:58,386 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:56:58,392 INFO 저장 완료: 테와인 서밋® 콜라보레이션12 (id=2191)
+2026-05-14 16:57:00,224 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:57:01,454 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:57:01,464 INFO 저장 완료: 도바의 불 축제 (id=144)
+2026-05-14 16:57:03,313 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:57:04,731 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:57:04,750 INFO 저장 완료: 덴파크 야외 바비큐 가든 '피크닉' (id=3217)
+2026-05-14 16:57:06,594 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:57:07,351 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:57:07,357 INFO 저장 완료: 지류 축제 (id=146)
+2026-05-14 16:57:09,193 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:57:09,890 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:57:09,897 INFO 저장 완료: 사적 팔교 가키츠바타 축제 (id=147)
+2026-05-14 16:57:11,762 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:57:13,127 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:57:13,140 INFO 저장 완료: 고타 연날리기 축제 (id=149)
+2026-05-14 16:57:14,999 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:57:15,783 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:57:15,789 INFO 저장 완료: 도요하시 오니마츠리 (id=152)
+2026-05-14 16:57:17,618 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:57:18,682 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:57:18,691 INFO 저장 완료: 제40회 2026 트라이애슬론 이라고 대회 (id=157)
+2026-05-14 16:57:20,560 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:57:21,321 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:57:21,336 INFO 저장 완료: 면다가와 유채꽃・벚꽃 축제 (id=158)
+2026-05-14 16:57:23,195 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:57:24,047 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:57:24,051 INFO 저장 완료: 신조 벚꽃 축제 (id=159)
+2026-05-14 16:57:25,882 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:57:26,506 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:57:26,513 INFO 저장 완료: 나가시노 전투 깃발 축제 (id=161)
+2026-05-14 16:57:28,377 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:57:30,022 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:57:30,029 INFO 저장 완료: 타미네 다라쿠 (id=164)
+2026-05-14 16:57:31,954 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:57:32,890 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:57:32,905 INFO 저장 완료: 하나마츠리(시타라마치 츠구) (id=165)
+2026-05-14 16:57:34,758 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:57:35,468 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:57:35,478 INFO 저장 완료: 제65회 세토도조 축제 (id=1190)
+2026-05-14 16:57:37,337 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:57:38,092 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:57:38,099 INFO 저장 완료: 차우스야마 고원 왕벚나무 축제 (id=167)
+2026-05-14 16:57:39,943 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:57:41,061 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:57:41,069 INFO 저장 완료: 꽃 축제(도네무라 가미쿠로가와) (id=168)
+2026-05-14 16:57:42,910 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:57:44,260 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:57:44,276 INFO 저장 완료: 아즈케 봄 축제(아즈케 신사 예대제・중범제) (id=1195)
+2026-05-14 16:57:46,154 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:57:47,023 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:57:47,031 INFO 저장 완료: 오이케 공원 꽃창포 축제 (id=1203)
+2026-05-14 16:57:48,863 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:57:49,582 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:57:49,591 INFO 저장 완료: 만엽공원 다카마쓰 분원 꽃장미 축제 (id=1204)
+2026-05-14 16:57:51,449 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:57:52,231 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:57:52,243 INFO 저장 완료: 바람 축제 (id=1207)
+2026-05-14 16:57:54,077 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:57:55,590 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:57:55,597 INFO 저장 완료: 지류공원 꽃창포 축제 (id=1209)
+2026-05-14 16:57:57,561 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:57:58,666 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:57:58,677 INFO 저장 완료: 이나부 음력 히나마쓰리 (id=1210)
+2026-05-14 16:58:00,529 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:58:01,362 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:58:01,382 INFO 저장 완료: 쓰루마이 공원 벚꽃 축제 (id=1213)
+2026-05-14 16:58:03,214 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:58:04,225 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:58:04,235 INFO 저장 완료: 우나고지 축제(우나고지 축제) (id=1215)
+2026-05-14 16:58:06,065 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:58:06,795 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:58:06,802 INFO 저장 완료: 팔십팔야 행사 (id=1218)
+2026-05-14 16:58:08,714 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:58:09,478 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:58:09,485 INFO 저장 완료: 도쿠가와 미술관 특별전 '오와리 도쿠가와 가문의 히나마쓰리'(2026) (id=1219)
+2026-05-14 16:58:11,324 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:58:12,554 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:58:12,565 INFO 저장 완료: 도카 신사 예대제 (id=1220)
+2026-05-14 16:58:14,414 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:58:15,898 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:58:15,921 INFO 저장 완료: 마키시다 신사 복숭아꽃 축제 (id=1221)
+2026-05-14 16:58:17,759 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:58:18,663 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:58:18,674 INFO 저장 완료: 고마키산 벚꽃 축제 (id=1223)
+2026-05-14 16:58:20,520 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:58:21,435 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:58:21,440 INFO 저장 완료: 이치노미야 리버사이드 페스티벌 (id=1224)
+2026-05-14 16:58:23,315 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:58:24,295 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:58:24,327 INFO 저장 완료: 향란계 골든위크 (id=1225)
+2026-05-14 16:58:26,197 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:58:27,162 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:58:27,171 INFO 저장 완료: 오카자키 벚꽃 축제 (id=1226)
+2026-05-14 16:58:29,007 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:58:29,989 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:58:29,995 INFO 저장 완료: 토요카와・萩(하기) 철쭉 축제 (id=1229)
+2026-05-14 16:58:31,820 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:58:32,487 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:58:32,498 INFO 저장 완료: 도요카와 이나리 봄철 대축제(풍년기원제) (id=1231)
+2026-05-14 16:58:34,361 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:58:35,363 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:58:35,373 INFO 저장 완료: 제32회 헤이와 벚꽃 축제 (id=1235)
+2026-05-14 16:58:37,212 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:58:38,119 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:58:38,123 INFO 저장 완료: 모모타로 축제 (id=1236)
+2026-05-14 16:58:39,980 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:58:40,737 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:58:40,746 INFO 저장 완료: 2026 야토미 벚꽃 축제 (id=1237)
+2026-05-14 16:58:42,598 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:58:43,363 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:58:43,375 INFO 저장 완료: 2026 니시오 롯만석 벚꽃 축제 (id=1238)
+2026-05-14 16:58:45,270 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:58:46,171 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:58:46,193 INFO 저장 완료: 아스날 금산 겨울 일루미네이션 (id=3288)
+2026-05-14 16:58:48,054 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:58:48,871 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:58:48,880 INFO 저장 완료: 오와리아사히아사히・성산공원 벚꽃축제 (id=1240)
+2026-05-14 16:58:50,724 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:58:51,666 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:58:51,678 INFO 저장 완료: 모리노미야시 (id=1241)
+2026-05-14 16:58:53,578 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:58:54,228 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:58:54,238 INFO 저장 완료: 제17회 가스가 고조가와 벚꽃 축제 (id=1243)
+2026-05-14 16:58:56,092 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:58:56,959 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:58:56,969 INFO 저장 완료: 반다 운하의 잉어 띄우기 (id=1249)
+2026-05-14 16:58:58,797 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:58:59,735 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:58:59,743 INFO 저장 완료: 오쓰 신사 예대제(오징어 축제) (id=1252)
+2026-05-14 16:59:01,627 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:59:02,694 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:59:02,712 INFO 저장 완료: 고쿠후구 하다카 축제 (id=229)
+2026-05-14 16:59:04,549 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:59:05,465 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:59:05,474 INFO 저장 완료: 고향 만남의 어드벤처 우보카마이 이나타케 (id=1253)
+2026-05-14 16:59:07,345 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:59:08,284 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:59:08,305 INFO 저장 완료: 제44회 와이와이 카니발～2026KASUGAI～) (id=1255)
+2026-05-14 16:59:10,148 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:59:10,800 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:59:10,809 INFO 저장 완료: 도요카와 시민 축제 '오이덴 축제' (id=1257)
+2026-05-14 16:59:12,674 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:59:13,882 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:59:13,890 INFO 저장 완료: 하기하라 신사 제례의 사자춤 카구라 (id=1259)
+2026-05-14 16:59:15,743 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:59:16,545 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:59:16,551 INFO 저장 완료: 만산의 흰 목련 축제 (id=1260)
+2026-05-14 16:59:18,415 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:59:19,326 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:59:19,336 INFO 저장 완료: 전국 선발 진돗개 축제 (id=1261)
+2026-05-14 16:59:21,139 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:59:22,039 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:59:22,046 INFO 저장 완료: 가마고리 클래식 호텔 철쭉 축제 (id=1262)
+2026-05-14 16:59:23,867 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:59:24,917 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:59:24,933 INFO 저장 완료: 가마군 관광교류 환대 컨시어지 자격시험 & 가마군 관광 키즈 컨시어지 자격시험 (id=3311)
+2026-05-14 16:59:26,788 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:59:27,883 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:59:27,891 INFO 저장 완료: 히가시미카와 후루사토 공원 후루사토 봄 축제 (id=1264)
+2026-05-14 16:59:29,726 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:59:30,855 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:59:30,865 INFO 저장 완료: 오오덴! 오쿠미카와 색채 여행 순회 ~ 5가지 "색"을 "색채"로 "색채"를 "색채타"로~! (id=3313)
+2026-05-14 16:59:32,704 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:59:33,922 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:59:33,928 INFO 저장 완료: 오하라 가부키 '5월 공연' (id=1263)
+2026-05-14 16:59:35,758 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:59:37,109 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:59:37,118 INFO 저장 완료: 제14회 니시미카와 포크 잼버리 (id=1267)
+2026-05-14 16:59:38,972 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:59:40,974 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:59:40,981 INFO 저장 완료: 돌칼 축제 (id=1268)
+2026-05-14 16:59:42,827 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:59:43,552 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:59:43,560 INFO 저장 완료: 오카다 마을버스 (id=3318)
+2026-05-14 16:59:45,414 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:59:46,185 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:59:46,197 INFO 저장 완료: 녹색과 꽃의 축제 (id=1270)
+2026-05-14 16:59:48,041 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:59:49,183 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:59:49,193 INFO 저장 완료: 덴파크 스위트 페스티벌 2026 (id=3320)
+2026-05-14 16:59:51,067 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:59:51,884 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:59:51,892 INFO 저장 완료: 이치노미야 철쭉제 (id=1273)
+2026-05-14 16:59:53,751 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:59:55,118 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:59:55,150 INFO 저장 완료: 제33회 오카자키 장기 축제 (id=1276)
+2026-05-14 16:59:56,971 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:59:57,887 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 16:59:57,895 INFO 저장 완료: 일본성 축제 2026 (id=3328)
+2026-05-14 16:59:59,734 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:00:00,456 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:00:00,470 INFO 저장 완료: 사쿠코인 비불관음 오뎃키 (id=3331)
+2026-05-14 17:00:02,363 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:00:03,212 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:00:03,218 INFO 저장 완료: 이나자와 매화 축제 (id=1289)
+2026-05-14 17:00:05,159 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:00:06,101 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:00:06,113 INFO 저장 완료: 히라시바 공원 매화 축제 (id=1291)
+2026-05-14 17:00:07,964 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:00:08,789 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:00:08,795 INFO 저장 완료: 니시우라 온천 벚꽃 축제 (id=1292)
+2026-05-14 17:00:10,792 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:00:11,967 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:00:11,975 INFO 저장 완료: 아카시 공원 벚꽃 축제 (id=1295)
+2026-05-14 17:00:13,827 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:00:14,869 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:00:14,877 INFO 저장 완료: 관도회 (id=3343)
+2026-05-14 17:00:16,826 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:00:17,854 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:00:17,860 INFO 저장 완료: 봄 축제(사쿠라) (id=1297)
+2026-05-14 17:00:19,753 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:00:20,927 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:00:20,938 INFO 저장 완료: 2026년 한다의 봄 축제 (id=1298)
+2026-05-14 17:00:22,785 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:00:24,107 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:00:24,113 INFO 저장 완료: 제49회 안성벚꽃축제 (id=1299)
+2026-05-14 17:00:25,973 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:00:26,830 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:00:26,837 INFO 저장 완료: 토코나메 린쿠비치 선셋 불꽃놀이 (id=2326)
+2026-05-14 17:00:28,688 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:00:30,245 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:00:30,255 INFO 저장 완료: 제32회 수원벚꽃축제 (id=1303)
+2026-05-14 17:00:32,120 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:00:33,314 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:00:33,336 INFO 저장 완료: 도요카와 벚꽃 축제 (id=1305)
+2026-05-14 17:00:35,180 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:00:36,389 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:00:36,399 INFO 저장 완료: 이치노미야 벚꽃 축제 (id=1306)
+2026-05-14 17:00:38,270 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:00:39,115 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:00:39,121 INFO 저장 완료: 아이치 아사히 유적 박물관 기획전 '아이치의 발굴조사 2025' (id=3355)
+2026-05-14 17:00:40,978 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:00:42,193 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:00:42,202 INFO 저장 완료: 가하라 온천 수국 축제 (id=1310)
+2026-05-14 17:00:44,080 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:00:45,909 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:00:45,969 INFO 저장 완료: 레고랜드® 재팬 "레고랜드®에서 봄맞이 파티" (id=3359)
+2026-05-14 17:00:47,865 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:00:48,914 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:00:48,922 INFO 저장 완료: 아카츠카야마 공원 꽃창포 축제 (id=1311)
+2026-05-14 17:00:50,756 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:00:51,639 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:00:51,657 INFO 저장 완료: TOKAI ECO FESTA 2026 Spring in 모리코로 공원 (id=3361)
+2026-05-14 17:00:53,483 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:00:55,125 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:00:55,498 INFO 저장 완료: 애환 산책 (id=3363)
+2026-05-14 17:00:57,338 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:00:57,997 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:00:58,010 INFO 저장 완료: 아쓰타 축제(쇼무 축제) (id=1318)
+2026-05-14 17:00:59,853 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:01:00,769 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:01:00,779 INFO 저장 완료: 강아지 크루즈 (id=3368)
+2026-05-14 17:01:03,129 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:01:04,856 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:01:04,865 INFO 저장 완료: INAX 라이브 뮤지엄 기획전 '아이치현 도자기 미술관 컬렉션 저승에서도 행복한 삶 - 중국 이천 년 전의 주택 설비 기기' (id=3369)
+2026-05-14 17:01:06,804 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:01:07,825 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:01:07,832 INFO 저장 완료: 아이치 항공 박물관 제6회 프라모델 콘테스트 (id=3375)
+2026-05-14 17:01:09,723 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:01:10,794 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:01:10,807 INFO 저장 완료: 제37회 설악산 결전장 축제 (id=1329)
+2026-05-14 17:01:12,718 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:01:13,499 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:01:13,510 INFO 저장 완료: 가스가이시 도풍기념관 소장품전 '심토토우서(心ととう書)' (id=3379)
+2026-05-14 17:01:15,380 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:01:16,106 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:01:16,119 INFO 저장 완료: 아츠타 신궁 무라쿠 신사 (id=1332)
+2026-05-14 17:01:17,960 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:01:19,432 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:01:19,440 INFO 저장 완료: MIKAWA de 놀이 100 ～아이치 de 체험 2025～) (id=2358)
+2026-05-14 17:01:21,305 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:01:22,217 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:01:22,228 INFO 저장 완료: CRAFT MARKET NAGOYA vol.8 (id=2359)
+2026-05-14 17:01:24,082 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:01:25,055 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:01:25,065 INFO 저장 완료: 나카마노 오히나상 in 아시스케 (id=313)
+2026-05-14 17:01:27,293 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:01:28,614 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:01:28,622 INFO 저장 완료: 아이치현 도자미술관 특별전 "This is SUEKI - 고대의 형태, 무한대!" (id=3387)
+2026-05-14 17:01:30,467 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:01:31,390 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:01:31,399 INFO 저장 완료: 도요타 박물관 기획전 「What's JDM?-세계가 열광하는 '80-'90년대 일본차」展 (id=3391)
+2026-05-14 17:01:33,231 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:01:34,182 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:01:34,189 INFO 저장 완료: 가메사키 조개잡이 축제 (id=319)
+2026-05-14 17:01:36,014 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:01:36,707 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:01:36,734 INFO 저장 완료: imotte Vol.3 (id=2369)
+2026-05-14 17:01:38,574 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:01:39,921 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:01:39,929 INFO 저장 완료: 후지 축제 (id=1345)
+2026-05-14 17:01:41,786 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:01:42,548 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:01:42,556 INFO 저장 완료: GW 이벤트 '물고기를 잡아라' 2026 (id=1344)
+2026-05-14 17:01:44,398 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:01:45,407 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:01:45,421 INFO 저장 완료: 아이치현립미술관 기획전 「반 고흐전 가족이 이어온 화가의 꿈」展 (id=3396)
+2026-05-14 17:01:47,252 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:01:48,578 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:01:48,588 INFO 저장 완료: 쇼하치짱의 단오절 (id=1348)
+2026-05-14 17:01:50,453 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:01:51,651 INFO DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:01:51,659 INFO 저장 완료: 오니시 수국 축제 (id=1346)
+2026-05-14 17:01:53,499 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:01:54,210 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:01:54,211 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota Exceeded
+2026-05-14 17:01:54,235 INFO 저장 완료:  (id=1366)
+2026-05-14 17:01:56,093 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:01:57,180 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:01:57,180 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota Exceeded
+2026-05-14 17:01:57,187 INFO 저장 완료:  (id=3434)
+2026-05-14 17:01:59,041 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:01:59,434 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:01:59,435 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:01:59,446 INFO 저장 완료:  (id=3435)
+2026-05-14 17:02:01,334 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:02:01,687 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:02:01,688 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:02:01,693 INFO 저장 완료:  (id=2421)
+2026-05-14 17:02:03,567 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:02:03,877 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:02:03,878 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:02:03,887 INFO 저장 완료:  (id=3451)
+2026-05-14 17:02:05,740 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:02:06,089 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:02:06,090 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:02:06,096 INFO 저장 완료:  (id=2444)
+2026-05-14 17:02:07,946 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:02:08,343 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:02:08,343 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:02:08,350 INFO 저장 완료:  (id=3472)
+2026-05-14 17:02:10,199 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:02:10,594 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:02:10,595 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:02:10,602 INFO 저장 완료:  (id=2456)
+2026-05-14 17:02:12,781 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:02:13,156 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:02:13,156 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:02:13,184 INFO 저장 완료:  (id=2461)
+2026-05-14 17:02:15,039 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:02:15,351 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:02:15,351 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:02:15,357 INFO 저장 완료:  (id=3486)
+2026-05-14 17:02:17,216 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:02:17,559 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:02:17,559 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:02:17,568 INFO 저장 완료:  (id=3492)
+2026-05-14 17:02:19,409 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:02:19,717 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:02:19,718 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:02:19,725 INFO 저장 완료:  (id=3498)
+2026-05-14 17:02:21,589 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:02:21,900 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:02:21,900 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:02:21,909 INFO 저장 완료:  (id=3505)
+2026-05-14 17:02:23,730 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:02:24,041 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:02:24,041 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:02:24,048 INFO 저장 완료:  (id=2481)
+2026-05-14 17:02:25,894 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:02:26,203 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:02:26,203 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:02:26,209 INFO 저장 완료:  (id=3507)
+2026-05-14 17:02:28,089 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:02:28,413 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:02:28,413 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:02:28,422 INFO 저장 완료:  (id=2484)
+2026-05-14 17:02:30,273 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:02:30,666 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:02:30,666 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:02:30,675 INFO 저장 완료:  (id=2489)
+2026-05-14 17:02:32,547 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:02:32,864 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:02:32,864 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:02:32,875 INFO 저장 완료:  (id=1106)
+2026-05-14 17:02:34,723 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:02:35,069 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:02:35,069 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:02:35,078 INFO 저장 완료:  (id=2498)
+2026-05-14 17:02:36,921 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:02:37,324 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:02:37,324 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:02:37,334 INFO 저장 완료:  (id=90)
+2026-05-14 17:02:39,188 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:02:39,573 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:02:39,573 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:02:39,584 INFO 저장 완료:  (id=3526)
+2026-05-14 17:02:41,457 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:02:41,827 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:02:41,827 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:02:41,842 INFO 저장 완료:  (id=3525)
+2026-05-14 17:02:43,659 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:02:43,978 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:02:43,978 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:02:43,987 INFO 저장 완료:  (id=2504)
+2026-05-14 17:02:45,802 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:02:46,128 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:02:46,128 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:02:46,137 INFO 저장 완료:  (id=2506)
+2026-05-14 17:02:47,979 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:02:48,289 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:02:48,289 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:02:48,295 INFO 저장 완료:  (id=3531)
+2026-05-14 17:02:50,225 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:02:50,643 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:02:50,643 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:02:50,683 INFO 저장 완료:  (id=3532)
+2026-05-14 17:02:52,592 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:02:52,988 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:02:52,988 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:02:52,998 INFO 저장 완료:  (id=1482)
+2026-05-14 17:02:54,889 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:02:55,241 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:02:55,241 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:02:55,245 INFO 저장 완료:  (id=3537)
+2026-05-14 17:02:57,124 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:02:57,434 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:02:57,435 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:02:57,443 INFO 저장 완료:  (id=2513)
+2026-05-14 17:02:59,283 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:02:59,592 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:02:59,592 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:02:59,598 INFO 저장 완료:  (id=3539)
+2026-05-14 17:03:01,650 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:03:02,005 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:03:02,008 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:03:02,054 INFO 저장 완료:  (id=3538)
+2026-05-14 17:03:04,442 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:03:04,786 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:03:04,786 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:03:04,818 INFO 저장 완료:  (id=2515)
+2026-05-14 17:03:06,704 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:03:07,016 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:03:07,016 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:03:07,024 INFO 저장 완료:  (id=2518)
+2026-05-14 17:03:08,899 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:03:09,212 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:03:09,212 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:03:09,217 INFO 저장 완료:  (id=2519)
+2026-05-14 17:03:11,276 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:03:11,593 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:03:11,593 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:03:11,613 INFO 저장 완료:  (id=2129)
+2026-05-14 17:03:13,435 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:03:13,749 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:03:13,749 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:03:13,794 INFO 저장 완료:  (id=1112)
+2026-05-14 17:03:15,867 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:03:16,178 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:03:16,179 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:03:16,212 INFO 저장 완료:  (id=3552)
+2026-05-14 17:03:18,104 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:03:18,485 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:03:18,486 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:03:18,529 INFO 저장 완료:  (id=3567)
+2026-05-14 17:03:20,396 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:03:20,705 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:03:20,705 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:03:20,710 INFO 저장 완료:  (id=1116)
+2026-05-14 17:03:22,545 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:03:22,856 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:03:22,856 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:03:22,884 INFO 저장 완료:  (id=3569)
+2026-05-14 17:03:24,720 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:03:25,029 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:03:25,029 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:03:25,036 INFO 저장 완료:  (id=3570)
+2026-05-14 17:03:26,896 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:03:27,291 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:03:27,291 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:03:27,323 INFO 저장 완료:  (id=3572)
+2026-05-14 17:03:29,175 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:03:29,544 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:03:29,544 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:03:29,548 INFO 저장 완료:  (id=2549)
+2026-05-14 17:03:31,437 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:03:31,811 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:03:31,811 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:03:31,835 INFO 저장 완료:  (id=3574)
+2026-05-14 17:03:33,689 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:03:33,999 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:03:34,000 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:03:34,010 INFO 저장 완료:  (id=3576)
+2026-05-14 17:03:35,847 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:03:36,159 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:03:36,159 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:03:36,168 INFO 저장 완료:  (id=3577)
+2026-05-14 17:03:38,049 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:03:38,358 INFO Starting retry 1 for request POST https://api-free.deepl.com/v2/translate after sleeping for 0.69 seconds. 
+2026-05-14 17:03:39,360 INFO Starting retry 2 for request POST https://api-free.deepl.com/v2/translate after sleeping for 1.29 seconds. 
+2026-05-14 17:03:40,963 INFO Starting retry 3 for request POST https://api-free.deepl.com/v2/translate after sleeping for 2.23 seconds. 
+2026-05-14 17:03:43,502 INFO Starting retry 4 for request POST https://api-free.deepl.com/v2/translate after sleeping for 3.84 seconds. 
+2026-05-14 17:03:47,669 INFO Starting retry 5 for request POST https://api-free.deepl.com/v2/translate after sleeping for 4.81 seconds. 
+2026-05-14 17:03:52,890 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:03:52,890 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:03:52,912 INFO 저장 완료:  (id=2554)
+2026-05-14 17:03:54,763 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:03:55,145 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:03:55,145 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:03:55,154 INFO 저장 완료:  (id=3583)
+2026-05-14 17:03:57,043 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:03:57,356 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:03:57,357 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:03:58,298 INFO 저장 완료:  (id=1535)
+2026-05-14 17:04:00,154 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:04:00,465 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:04:00,466 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:04:00,486 INFO 저장 완료:  (id=2561)
+2026-05-14 17:04:02,342 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:04:02,653 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:04:02,653 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:04:02,659 INFO 저장 완료:  (id=3591)
+2026-05-14 17:04:04,499 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:04:04,810 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:04:04,810 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:04:04,841 INFO 저장 완료:  (id=1545)
+2026-05-14 17:04:06,664 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:04:06,974 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:04:06,974 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:04:06,980 INFO 저장 완료:  (id=3601)
+2026-05-14 17:04:08,855 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:04:09,165 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:04:09,166 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:04:09,175 INFO 저장 완료:  (id=3602)
+2026-05-14 17:04:11,050 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:04:11,360 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:04:11,360 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:04:11,365 INFO 저장 완료:  (id=3603)
+2026-05-14 17:04:13,190 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:04:13,576 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:04:13,576 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:04:13,586 INFO 저장 완료:  (id=3610)
+2026-05-14 17:04:15,461 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:04:15,828 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:04:15,829 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:04:15,838 INFO 저장 완료:  (id=3612)
+2026-05-14 17:04:17,673 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:04:18,081 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:04:18,081 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:04:18,088 INFO 저장 완료:  (id=2589)
+2026-05-14 17:04:19,935 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:04:20,334 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:04:20,334 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:04:20,348 INFO 저장 완료:  (id=3614)
+2026-05-14 17:04:22,184 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:04:22,539 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:04:22,540 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:04:22,546 INFO 저장 완료:  (id=3618)
+2026-05-14 17:04:24,451 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:04:24,841 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:04:24,841 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:04:24,861 INFO 저장 완료:  (id=2595)
+2026-05-14 17:04:26,741 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:04:27,091 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:04:27,092 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:04:27,100 INFO 저장 완료:  (id=3620)
+2026-05-14 17:04:28,982 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:04:29,345 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:04:29,346 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:04:29,354 INFO 저장 완료:  (id=3162)
+2026-05-14 17:04:31,198 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:04:31,507 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:04:31,508 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:04:31,512 INFO 저장 완료:  (id=3622)
+2026-05-14 17:04:33,396 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:04:33,706 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:04:33,707 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:04:33,712 INFO 저장 완료:  (id=3623)
+2026-05-14 17:04:35,612 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:04:35,922 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:04:35,923 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:04:35,935 INFO 저장 완료:  (id=3633)
+2026-05-14 17:04:37,780 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:04:38,092 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:04:38,092 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:04:38,103 INFO 저장 완료:  (id=3641)
+2026-05-14 17:04:39,989 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:04:40,404 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:04:40,405 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:04:40,414 INFO 저장 완료:  (id=3643)
+2026-05-14 17:04:42,246 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:04:42,556 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:04:42,556 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:04:42,565 INFO 저장 완료:  (id=3647)
+2026-05-14 17:04:44,451 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:04:44,763 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:04:44,763 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:04:44,786 INFO 저장 완료:  (id=3649)
+2026-05-14 17:04:46,661 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:04:46,976 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:04:46,976 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:04:47,006 INFO 저장 완료:  (id=3654)
+2026-05-14 17:04:48,864 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:04:49,214 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:04:49,215 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:04:49,244 INFO 저장 완료:  (id=3656)
+2026-05-14 17:04:51,121 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:04:51,462 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:04:51,462 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:04:51,479 INFO 저장 완료:  (id=2635)
+2026-05-14 17:04:53,348 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:04:53,716 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:04:53,716 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:04:53,723 INFO 저장 완료:  (id=1616)
+2026-05-14 17:04:55,609 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:04:55,968 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:04:55,968 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:04:56,001 INFO 저장 완료:  (id=1622)
+2026-05-14 17:04:57,936 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:04:58,245 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:04:58,245 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:04:58,274 INFO 저장 완료:  (id=1623)
+2026-05-14 17:05:00,305 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:05:00,680 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:05:00,680 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:05:00,711 INFO 저장 완료:  (id=3674)
+2026-05-14 17:05:02,750 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:05:03,137 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:05:03,138 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:05:03,149 INFO 저장 완료:  (id=3675)
+2026-05-14 17:05:05,052 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:05:05,389 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:05:05,389 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:05:05,407 INFO 저장 완료:  (id=3681)
+2026-05-14 17:05:07,310 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:05:07,619 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:05:07,619 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:05:07,656 INFO 저장 완료:  (id=1639)
+2026-05-14 17:05:09,508 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:05:09,820 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:05:09,820 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:05:09,828 INFO 저장 완료:  (id=1648)
+2026-05-14 17:05:11,707 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:05:12,018 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:05:12,019 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:05:12,028 INFO 저장 완료:  (id=1649)
+2026-05-14 17:05:13,893 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate

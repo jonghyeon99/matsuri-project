@@ -146,7 +146,17 @@ def parse_detail_page(detail_id: int) -> dict | None:
 
     # 설명
     short_desc_jp = text("section.detail-top p.c-txt")
-    long_desc_jp  = text("div.c-con")
+    long_desc_el = soup.select_one("div.c-con div.contents")
+    if long_desc_el:
+        for br in long_desc_el.find_all("br"):
+            br.replace_with("\n")
+        for p in long_desc_el.find_all("p"):
+            p.append("\n")
+        long_desc_jp = long_desc_el.get_text(strip=False).strip()
+        long_desc_jp = re.sub(r'\n{3,}', '\n\n', long_desc_jp)
+        long_desc_jp = re.sub(r'一覧に戻る.*', '', long_desc_jp, flags=re.DOTALL).strip()
+    else:
+        long_desc_jp = ""
 
     # 기본정보 테이블
     event_time_jp = ""
@@ -214,25 +224,74 @@ def parse_detail_page(detail_id: int) -> dict | None:
 # ─────────────────────────────────────────
 # 3단계: DeepL 번역 후 _jp 키를 _ko로 변환
 # ─────────────────────────────────────────
+# 일본어 한자 감지
+def is_japanese(text: str) -> bool:
+    return bool(re.search(r'[\u3040-\u30ff\u4e00-\u9fff]', text))
+
+# 도시명 수동 매핑
+CITY_MAP = {
+    "幸田町": "고타초",
+    "碧南市": "헤키난시",
+    "豊明市": "도요아케시",
+    "清須市": "기요스시",
+    "東海市": "도카이시",
+    "大府市": "오부시",
+    "知多市": "지타시",
+    "常滑市": "도코나메시",
+    "半田市": "한다시",
+    "阿久比町": "아구이초",
+    "東浦町": "히가시우라초",
+    "南知多町": "미나미치타초",
+    "美浜町": "미하마초",
+    "武豊町": "다케토요초",
+    "豊山町": "도요야마초",
+    "大口町": "오구치초",
+    "扶桑町": "후소초",
+    "大治町": "다이치초",
+    "蟹江町": "가니에초",
+    "飛島村": "도비시마무라",
+    "東郷町": "도고초",
+    "長久手市": "나가쿠테시",
+    "設楽町": "시타라초",
+    "東栄町": "도에이초",
+    "豊根村": "도요네무라",
+}
+
 def translate_event(event: dict, translator: deepl.DeepLClient) -> dict:
     fields_to_translate = [
         "name_jp", "city_jp", "short_desc_jp", "long_desc_jp",
         "event_dates_jp", "event_time_jp", "venue_jp", "address_jp",
         "access_train_jp", "access_car_jp",
     ]
-    translated = {}
+
+    texts = []
+    valid_fields = []
     for field in fields_to_translate:
         src = event.get(field, "")
-        ko_field = field.replace("_jp", "_ko")
-        if not src:
-            translated[ko_field] = ""
-            continue
+        if src:
+            texts.append(src)
+            valid_fields.append(field)
+
+    translated = {}
+    if texts:
         try:
-            result = translator.translate_text(src, source_lang="JA", target_lang="KO")
-            translated[ko_field] = result.text
+            results = translator.translate_text(texts, source_lang="JA", target_lang="KO")
+            for field, result in zip(valid_fields, results):
+                ko_field = field.replace("_jp", "_ko")
+                ko_text = result.text
+
+                if field == "city_jp" and is_japanese(ko_text):
+                    ko_text = CITY_MAP.get(event.get(field, ""), ko_text)
+
+                translated[ko_field] = ko_text
         except Exception as e:
-            log.warning(f"번역 실패 ({field}): {e}")
+            log.warning(f"배치 번역 실패: {e}")
+
+    for field in fields_to_translate:
+        ko_field = field.replace("_jp", "_ko")
+        if ko_field not in translated:
             translated[ko_field] = ""
+
     return translated
 
 
