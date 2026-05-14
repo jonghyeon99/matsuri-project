@@ -1000,3 +1000,715 @@
 2026-05-14 17:05:12,019 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
 2026-05-14 17:05:12,028 INFO 저장 완료:  (id=1649)
 2026-05-14 17:05:13,893 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:05:14,296 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:05:14,296 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:05:14,301 INFO 저장 완료:  (id=1655)
+2026-05-14 17:05:16,392 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:05:16,703 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:05:16,704 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:05:16,727 INFO 저장 완료:  (id=1657)
+2026-05-14 17:05:18,679 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:05:19,016 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:05:19,016 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:05:19,035 INFO 저장 완료:  (id=3709)
+2026-05-14 17:05:21,212 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:05:21,543 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:05:21,544 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:05:21,782 INFO 저장 완료:  (id=3722)
+2026-05-14 17:05:23,764 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:05:24,079 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:05:24,079 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:05:24,121 INFO 저장 완료:  (id=2703)
+2026-05-14 17:05:26,091 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:05:26,478 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:05:26,478 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:05:26,515 INFO 저장 완료:  (id=1683)
+2026-05-14 17:05:28,371 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:05:28,682 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:05:28,682 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:05:28,688 INFO 저장 완료:  (id=2721)
+2026-05-14 17:05:30,576 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:05:30,887 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:05:30,888 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:05:30,902 INFO 저장 완료:  (id=1719)
+2026-05-14 17:05:32,750 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:05:33,139 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:05:33,139 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:05:33,148 INFO 저장 완료:  (id=1724)
+2026-05-14 17:05:35,021 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:05:35,330 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:05:35,330 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:05:35,356 INFO 저장 완료:  (id=3775)
+2026-05-14 17:05:37,251 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:05:37,648 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:05:37,649 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:05:37,663 INFO 저장 완료:  (id=2764)
+2026-05-14 17:05:39,536 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:05:39,878 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:05:39,879 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:05:39,889 INFO 저장 완료:  (id=3792)
+2026-05-14 17:05:41,800 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:05:42,112 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:05:42,112 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:05:42,121 INFO 저장 완료:  (id=3794)
+2026-05-14 17:05:44,032 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:05:44,408 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:05:44,408 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:05:44,423 INFO 저장 완료:  (id=3797)
+2026-05-14 17:05:46,262 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:05:46,571 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:05:46,571 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:05:46,583 INFO 저장 완료:  (id=3798)
+2026-05-14 17:05:48,461 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:05:48,770 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:05:48,770 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:05:48,789 INFO 저장 완료:  (id=2777)
+2026-05-14 17:05:50,704 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:05:51,015 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:05:51,015 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:05:51,024 INFO 저장 완료:  (id=2789)
+2026-05-14 17:05:52,926 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:05:53,316 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:05:53,316 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:05:53,332 INFO 저장 완료:  (id=3814)
+2026-05-14 17:05:55,223 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:05:55,565 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:05:55,565 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:05:55,573 INFO 저장 완료:  (id=3815)
+2026-05-14 17:05:57,414 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:05:57,732 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:05:57,732 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:05:57,740 INFO 저장 완료:  (id=3813)
+2026-05-14 17:05:59,651 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:05:59,962 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:05:59,962 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:05:59,970 INFO 저장 완료:  (id=3818)
+2026-05-14 17:06:01,912 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:06:02,244 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:06:02,245 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:06:02,253 INFO 저장 완료:  (id=3820)
+2026-05-14 17:06:04,126 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:06:04,480 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:06:04,480 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:06:04,516 INFO 저장 완료:  (id=3821)
+2026-05-14 17:06:06,408 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:06:06,718 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:06:06,718 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:06:06,743 INFO 저장 완료:  (id=3831)
+2026-05-14 17:06:08,635 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:06:08,987 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:06:08,990 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:06:09,572 INFO 저장 완료:  (id=3832)
+2026-05-14 17:06:11,504 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:06:11,845 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:06:11,845 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:06:11,876 INFO 저장 완료:  (id=3853)
+2026-05-14 17:06:13,721 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:06:14,099 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:06:14,099 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:06:14,107 INFO 저장 완료:  (id=3858)
+2026-05-14 17:06:15,988 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:06:16,299 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:06:16,299 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:06:16,326 INFO 저장 완료:  (id=1821)
+2026-05-14 17:06:18,180 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:06:18,501 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:06:18,501 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:06:18,528 INFO 저장 완료:  (id=1823)
+2026-05-14 17:06:20,387 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:06:20,697 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:06:20,697 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:06:20,719 INFO 저장 완료:  (id=1824)
+2026-05-14 17:06:22,557 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:06:22,906 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:06:22,906 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:06:22,917 INFO 저장 완료:  (id=1827)
+2026-05-14 17:06:24,777 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:06:25,087 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:06:25,088 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:06:25,096 INFO 저장 완료:  (id=1828)
+2026-05-14 17:06:26,940 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:06:27,251 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:06:27,252 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:06:27,260 INFO 저장 완료:  (id=1830)
+2026-05-14 17:06:29,126 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:06:29,458 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:06:29,458 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:06:29,466 INFO 저장 완료:  (id=3879)
+2026-05-14 17:06:31,432 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:06:31,744 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:06:31,745 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:06:31,770 INFO 저장 완료:  (id=1831)
+2026-05-14 17:06:33,627 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:06:33,938 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:06:33,938 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:06:33,945 INFO 저장 완료:  (id=1833)
+2026-05-14 17:06:35,821 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:06:36,130 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:06:36,130 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:06:36,149 INFO 저장 완료:  (id=3882)
+2026-05-14 17:06:38,045 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:06:38,367 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:06:38,368 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:06:38,376 INFO 저장 완료:  (id=1835)
+2026-05-14 17:06:40,250 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:06:40,620 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:06:40,620 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:06:40,629 INFO 저장 완료:  (id=3884)
+2026-05-14 17:06:42,541 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:06:42,872 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:06:42,873 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:06:42,882 INFO 저장 완료:  (id=2861)
+2026-05-14 17:06:44,773 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:06:45,084 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:06:45,084 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:06:45,091 INFO 저장 완료:  (id=3886)
+2026-05-14 17:06:46,961 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:06:47,378 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:06:47,378 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:06:47,390 INFO 저장 완료:  (id=2860)
+2026-05-14 17:06:49,236 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:06:49,631 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:06:49,631 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:06:49,639 INFO 저장 완료:  (id=3888)
+2026-05-14 17:06:51,527 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:06:51,838 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:06:51,838 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:06:51,846 INFO 저장 완료:  (id=1840)
+2026-05-14 17:06:53,710 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:06:54,034 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:06:54,034 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:06:54,046 INFO 저장 완료:  (id=1843)
+2026-05-14 17:06:55,907 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:06:56,287 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:06:56,287 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:06:56,298 INFO 저장 완료:  (id=1844)
+2026-05-14 17:06:58,194 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:06:58,540 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:06:58,540 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:06:58,549 INFO 저장 완료:  (id=1845)
+2026-05-14 17:07:00,391 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:07:00,792 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:07:00,792 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:07:00,799 INFO 저장 완료:  (id=3893)
+2026-05-14 17:07:02,756 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:07:03,148 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:07:03,148 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:07:03,157 INFO 저장 완료:  (id=1848)
+2026-05-14 17:07:05,001 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:07:05,400 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:07:05,400 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:07:05,407 INFO 저장 완료:  (id=3897)
+2026-05-14 17:07:07,279 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:07:07,591 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:07:07,592 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:07:07,602 INFO 저장 완료:  (id=1851)
+2026-05-14 17:07:09,473 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:07:09,784 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:07:09,784 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:07:09,791 INFO 저장 완료:  (id=3900)
+2026-05-14 17:07:11,675 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:07:11,986 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:07:11,986 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:07:11,994 INFO 저장 완료:  (id=1853)
+2026-05-14 17:07:13,854 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:07:14,208 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:07:14,208 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:07:14,215 INFO 저장 완료:  (id=2878)
+2026-05-14 17:07:16,102 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:07:16,412 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:07:16,413 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:07:16,420 INFO 저장 완료:  (id=1854)
+2026-05-14 17:07:18,661 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:07:18,982 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:07:18,982 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:07:19,007 INFO 저장 완료:  (id=1856)
+2026-05-14 17:07:21,095 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:07:21,407 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:07:21,407 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:07:21,420 INFO 저장 완료:  (id=2881)
+2026-05-14 17:07:26,667 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:07:27,006 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:07:27,006 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:07:27,037 INFO 저장 완료:  (id=1855)
+2026-05-14 17:07:29,478 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:07:29,874 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:07:29,874 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:07:29,881 INFO 저장 완료:  (id=2883)
+2026-05-14 17:07:31,734 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:07:32,045 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:07:32,045 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:07:32,088 INFO 저장 완료:  (id=3906)
+2026-05-14 17:07:33,941 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:07:34,252 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:07:34,252 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:07:34,262 INFO 저장 완료:  (id=2885)
+2026-05-14 17:07:36,127 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:07:36,530 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:07:36,530 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:07:36,541 INFO 저장 완료:  (id=3910)
+2026-05-14 17:07:38,426 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:07:38,782 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:07:38,783 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:07:38,815 INFO 저장 완료:  (id=2888)
+2026-05-14 17:07:40,695 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:07:41,035 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:07:41,036 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:07:41,043 INFO 저장 완료:  (id=3916)
+2026-05-14 17:07:43,109 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:07:43,418 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:07:43,418 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:07:43,426 INFO 저장 완료:  (id=2893)
+2026-05-14 17:07:45,257 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:07:45,570 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:07:45,570 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:07:45,579 INFO 저장 완료:  (id=2897)
+2026-05-14 17:07:47,434 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:07:47,746 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:07:47,747 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:07:47,770 INFO 저장 완료:  (id=2900)
+2026-05-14 17:07:49,675 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:07:49,985 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:07:49,985 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:07:49,994 INFO 저장 완료:  (id=2901)
+2026-05-14 17:07:51,833 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:07:52,145 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:07:52,145 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:07:52,158 INFO 저장 완료:  (id=1878)
+2026-05-14 17:07:54,011 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:07:54,346 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:07:54,346 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:07:54,353 INFO 저장 완료:  (id=2902)
+2026-05-14 17:07:56,209 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:07:56,599 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:07:56,600 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:07:56,608 INFO 저장 완료:  (id=1880)
+2026-05-14 17:07:58,497 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:07:58,852 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:07:58,853 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:07:58,866 INFO 저장 완료:  (id=2904)
+2026-05-14 17:08:00,941 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:08:01,251 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:08:01,251 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:08:01,277 INFO 저장 완료:  (id=2906)
+2026-05-14 17:08:03,174 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:08:03,561 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:08:03,561 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:08:03,587 INFO 저장 완료:  (id=4037)
+2026-05-14 17:08:05,473 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:08:05,814 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:08:05,815 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:08:05,822 INFO 저장 완료:  (id=3934)
+2026-05-14 17:08:07,704 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:08:08,014 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:08:08,014 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:08:08,022 INFO 저장 완료:  (id=2912)
+2026-05-14 17:08:09,901 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:08:10,218 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:08:10,218 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:08:10,223 INFO 저장 완료:  (id=2920)
+2026-05-14 17:08:12,059 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:08:12,433 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:08:12,433 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:08:12,444 INFO 저장 완료:  (id=2923)
+2026-05-14 17:08:14,328 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:08:14,638 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:08:14,638 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:08:14,644 INFO 저장 완료:  (id=1900)
+2026-05-14 17:08:16,538 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:08:16,873 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:08:16,874 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:08:16,878 INFO 저장 완료:  (id=1904)
+2026-05-14 17:08:18,732 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:08:19,126 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:08:19,127 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:08:19,136 INFO 저장 완료:  (id=3955)
+2026-05-14 17:08:21,040 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:08:21,379 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:08:21,380 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:08:21,385 INFO 저장 완료:  (id=1909)
+2026-05-14 17:08:23,236 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:08:23,546 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:08:23,546 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:08:23,556 INFO 저장 완료:  (id=1911)
+2026-05-14 17:08:25,405 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:08:25,714 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:08:25,715 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:08:25,742 INFO 저장 완료:  (id=2937)
+2026-05-14 17:08:27,748 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:08:28,058 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:08:28,058 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:08:28,085 INFO 저장 완료:  (id=1914)
+2026-05-14 17:08:29,989 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:08:30,299 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:08:30,299 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:08:30,315 INFO 저장 완료:  (id=1916)
+2026-05-14 17:08:32,154 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:08:32,540 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:08:32,540 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:08:32,546 INFO 저장 완료:  (id=1918)
+2026-05-14 17:08:34,474 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:08:34,793 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:08:34,793 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:08:34,813 INFO 저장 완료:  (id=2942)
+2026-05-14 17:08:36,678 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:08:36,994 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:08:36,995 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:08:37,024 INFO 저장 완료:  (id=2943)
+2026-05-14 17:08:38,882 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:08:39,192 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:08:39,192 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:08:39,203 INFO 저장 완료:  (id=2944)
+2026-05-14 17:08:41,079 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:08:41,390 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:08:41,390 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:08:41,403 INFO 저장 완료:  (id=1922)
+2026-05-14 17:08:43,250 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:08:43,599 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:08:43,600 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:08:43,607 INFO 저장 완료:  (id=2947)
+2026-05-14 17:08:45,489 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:08:45,853 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:08:45,854 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:08:45,860 INFO 저장 완료:  (id=1925)
+2026-05-14 17:08:47,763 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:08:48,105 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:08:48,106 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:08:48,114 INFO 저장 완료:  (id=1926)
+2026-05-14 17:08:50,079 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:08:50,460 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:08:50,461 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:08:50,468 INFO 저장 완료:  (id=1927)
+2026-05-14 17:08:52,339 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:08:52,648 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:08:52,648 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:08:52,653 INFO 저장 완료:  (id=2949)
+2026-05-14 17:08:54,566 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:08:54,967 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:08:54,967 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:08:54,974 INFO 저장 완료:  (id=1929)
+2026-05-14 17:08:56,852 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:08:57,219 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:08:57,219 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:08:57,228 INFO 저장 완료:  (id=1930)
+2026-05-14 17:08:59,062 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:08:59,373 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:08:59,373 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:08:59,386 INFO 저장 완료:  (id=1931)
+2026-05-14 17:09:01,244 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:09:01,555 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:09:01,555 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:09:01,563 INFO 저장 완료:  (id=1932)
+2026-05-14 17:09:03,398 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:09:03,773 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:09:03,773 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:09:03,782 INFO 저장 완료:  (id=2952)
+2026-05-14 17:09:05,652 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:09:05,962 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:09:05,963 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:09:05,971 INFO 저장 완료:  (id=1935)
+2026-05-14 17:09:07,831 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:09:08,142 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:09:08,142 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:09:08,153 INFO 저장 완료:  (id=1936)
+2026-05-14 17:09:10,046 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:09:10,428 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:09:10,429 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:09:10,462 INFO 저장 완료:  (id=2961)
+2026-05-14 17:09:12,343 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:09:12,682 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:09:12,682 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:09:12,688 INFO 저장 완료:  (id=1939)
+2026-05-14 17:09:14,562 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:09:14,888 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:09:14,888 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:09:14,899 INFO 저장 완료:  (id=2971)
+2026-05-14 17:09:16,745 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:09:17,055 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:09:17,056 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:09:17,073 INFO 저장 완료:  (id=3995)
+2026-05-14 17:09:18,943 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:09:19,253 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:09:19,253 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:09:19,263 INFO 저장 완료:  (id=1955)
+2026-05-14 17:09:21,152 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:09:21,463 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:09:21,463 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:09:21,470 INFO 저장 완료:  (id=4004)
+2026-05-14 17:09:23,336 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:09:23,740 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:09:23,740 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:09:23,752 INFO 저장 완료:  (id=1957)
+2026-05-14 17:09:25,591 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:09:25,902 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:09:25,903 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:09:25,913 INFO 저장 완료:  (id=1956)
+2026-05-14 17:09:27,785 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:09:28,142 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:09:28,143 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:09:28,152 INFO 저장 완료:  (id=4005)
+2026-05-14 17:09:30,053 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:09:30,364 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:09:30,365 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:09:30,374 INFO 저장 완료:  (id=4067)
+2026-05-14 17:09:32,212 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:09:32,546 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:09:32,546 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:09:32,554 INFO 저장 완료:  (id=1969)
+2026-05-14 17:09:34,440 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:09:34,799 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:09:34,800 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:09:34,808 INFO 저장 완료:  (id=1970)
+2026-05-14 17:09:36,685 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:09:37,052 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:09:37,053 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:09:37,061 INFO 저장 완료:  (id=4020)
+2026-05-14 17:09:39,083 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:09:39,393 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:09:39,393 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:09:39,404 INFO 저장 완료:  (id=1973)
+2026-05-14 17:09:41,262 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:09:41,573 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:09:41,573 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:09:41,588 INFO 저장 완료:  (id=1974)
+2026-05-14 17:09:43,521 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:09:43,832 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:09:43,833 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:09:43,866 INFO 저장 완료:  (id=1975)
+2026-05-14 17:09:45,730 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:09:46,062 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:09:46,062 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:09:46,069 INFO 저장 완료:  (id=1976)
+2026-05-14 17:09:47,934 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:09:48,316 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:09:48,317 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:09:48,334 INFO 저장 완료:  (id=4033)
+2026-05-14 17:09:50,195 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:09:50,568 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:09:50,569 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:09:50,576 INFO 저장 완료:  (id=4035)
+2026-05-14 17:09:52,647 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:09:52,974 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:09:52,975 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:09:53,018 INFO 저장 완료:  (id=1989)
+2026-05-14 17:09:54,889 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:09:55,201 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:09:55,201 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:09:55,212 INFO 저장 완료:  (id=1990)
+2026-05-14 17:09:57,055 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:09:57,366 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:09:57,366 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:09:57,372 INFO 저장 완료:  (id=1991)
+2026-05-14 17:09:59,246 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:09:59,557 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:09:59,557 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:09:59,569 INFO 저장 완료:  (id=4040)
+2026-05-14 17:10:01,664 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:10:02,036 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:10:02,036 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:10:02,057 INFO 저장 완료:  (id=4041)
+2026-05-14 17:10:04,024 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:10:04,382 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:10:04,382 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:10:04,410 INFO 저장 완료:  (id=4042)
+2026-05-14 17:10:06,246 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:10:06,558 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:10:06,559 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:10:06,575 INFO 저장 완료:  (id=4043)
+2026-05-14 17:10:08,426 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:10:08,736 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:10:08,736 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:10:08,744 INFO 저장 완료:  (id=1993)
+2026-05-14 17:10:10,605 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:10:10,945 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:10:10,945 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:10:10,966 INFO 저장 완료:  (id=1994)
+2026-05-14 17:10:12,854 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:10:13,198 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:10:13,198 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:10:13,222 INFO 저장 완료:  (id=1995)
+2026-05-14 17:10:15,086 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:10:15,451 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:10:15,451 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:10:15,455 INFO 저장 완료:  (id=1992)
+2026-05-14 17:10:17,312 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:10:17,705 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:10:17,705 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:10:17,747 INFO 저장 완료:  (id=1999)
+2026-05-14 17:10:19,585 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:10:19,957 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:10:19,957 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:10:19,982 INFO 저장 완료:  (id=1998)
+2026-05-14 17:10:21,854 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:10:22,165 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:10:22,165 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:10:22,174 INFO 저장 완료:  (id=2000)
+2026-05-14 17:10:24,013 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:10:24,330 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:10:24,330 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:10:24,345 INFO 저장 완료:  (id=2002)
+2026-05-14 17:10:26,336 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:10:26,719 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:10:26,719 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:10:26,753 INFO 저장 완료:  (id=2003)
+2026-05-14 17:10:28,625 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:10:28,979 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:10:28,979 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:10:29,006 INFO 저장 완료:  (id=4053)
+2026-05-14 17:10:30,972 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:10:31,283 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:10:31,283 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:10:31,319 INFO 저장 완료:  (id=4054)
+2026-05-14 17:10:33,177 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:10:33,505 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:10:33,505 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:10:33,587 INFO 저장 완료:  (id=2005)
+2026-05-14 17:10:35,503 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:10:35,816 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:10:35,816 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:10:35,849 INFO 저장 완료:  (id=4057)
+2026-05-14 17:10:37,678 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:10:37,987 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:10:37,988 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:10:37,997 INFO 저장 완료:  (id=4058)
+2026-05-14 17:10:39,870 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:10:40,181 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:10:40,181 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:10:40,216 INFO 저장 완료:  (id=2009)
+2026-05-14 17:10:42,063 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:10:42,376 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:10:42,376 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:10:42,386 INFO 저장 완료:  (id=4061)
+2026-05-14 17:10:44,243 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:10:44,635 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:10:44,636 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:10:44,655 INFO 저장 완료:  (id=2015)
+2026-05-14 17:10:46,515 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:10:46,825 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:10:46,826 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:10:46,832 INFO 저장 완료:  (id=2016)
+2026-05-14 17:10:48,779 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:10:49,089 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:10:49,089 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:10:49,099 INFO 저장 완료:  (id=2017)
+2026-05-14 17:10:50,956 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:10:51,266 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:10:51,267 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:10:51,276 INFO 저장 완료:  (id=4066)
+2026-05-14 17:10:53,438 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:10:53,761 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:10:53,761 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:10:53,793 INFO 저장 완료:  (id=2018)
+2026-05-14 17:10:55,663 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:10:55,974 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:10:55,975 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:10:55,999 INFO 저장 완료:  (id=4068)
+2026-05-14 17:10:57,938 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:10:58,248 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:10:58,248 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:10:58,256 INFO 저장 완료:  (id=4069)
+2026-05-14 17:11:00,123 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:11:00,436 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:11:00,437 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:11:00,457 INFO 저장 완료:  (id=2019)
+2026-05-14 17:11:02,331 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:11:02,641 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:11:02,641 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:11:02,667 INFO 저장 완료:  (id=2020)
+2026-05-14 17:11:04,787 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:11:05,100 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:11:05,100 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:11:05,125 INFO 저장 완료:  (id=2022)
+2026-05-14 17:11:07,086 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:11:07,396 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:11:07,397 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:11:07,407 INFO 저장 완료:  (id=4070)
+2026-05-14 17:11:09,290 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:11:09,619 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:11:09,620 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:11:09,642 INFO 저장 완료:  (id=2024)
+2026-05-14 17:11:11,570 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:11:11,882 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:11:11,882 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:11:11,894 INFO 저장 완료:  (id=2025)
+2026-05-14 17:11:13,822 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:11:14,134 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:11:14,134 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:11:14,146 INFO 저장 완료:  (id=2026)
+2026-05-14 17:11:16,011 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:11:16,322 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:11:16,322 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:11:16,349 INFO 저장 완료:  (id=2027)
+2026-05-14 17:11:18,197 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:11:18,509 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:11:18,510 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:11:18,527 INFO 저장 완료:  (id=4075)
+2026-05-14 17:11:20,516 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:11:20,833 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:11:20,833 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:11:20,874 INFO 저장 완료:  (id=2029)
+2026-05-14 17:11:22,764 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:11:23,072 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:11:23,073 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:11:23,091 INFO 저장 완료:  (id=2030)
+2026-05-14 17:11:24,984 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:11:25,389 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:11:25,390 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:11:25,400 INFO 저장 완료:  (id=2031)
+2026-05-14 17:11:27,253 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:11:27,563 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:11:27,563 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:11:27,588 INFO 저장 완료:  (id=4082)
+2026-05-14 17:11:29,444 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:11:29,753 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:11:29,753 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:11:29,762 INFO 저장 완료:  (id=2035)
+2026-05-14 17:11:31,605 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:11:31,914 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:11:31,914 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:11:31,923 INFO 저장 완료:  (id=2036)
+2026-05-14 17:11:33,898 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:11:34,209 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:11:34,209 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:11:34,227 INFO 저장 완료:  (id=2034)
+2026-05-14 17:11:36,073 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:11:36,448 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:11:36,448 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:11:36,458 INFO 저장 완료:  (id=4083)
+2026-05-14 17:11:38,350 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:11:38,701 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:11:38,702 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:11:38,712 INFO 저장 완료:  (id=2039)
+2026-05-14 17:11:40,600 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:11:40,954 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:11:40,954 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:11:40,964 INFO 저장 완료:  (id=2040)
+2026-05-14 17:11:42,811 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:11:43,123 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:11:43,123 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:11:43,132 INFO 저장 완료:  (id=2033)
+2026-05-14 17:11:44,981 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:11:45,356 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:11:45,356 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:11:45,362 INFO 저장 완료:  (id=2037)
+2026-05-14 17:11:47,213 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:11:47,614 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:11:47,614 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:11:47,627 INFO 저장 완료:  (id=4085)
+2026-05-14 17:11:49,567 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:11:49,877 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:11:49,878 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:11:49,890 INFO 저장 완료:  (id=2038)
+2026-05-14 17:11:51,760 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:11:52,071 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:11:52,071 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:11:52,080 INFO 저장 완료:  (id=2045)
+2026-05-14 17:11:53,949 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:11:54,260 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:11:54,260 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:11:54,333 INFO 저장 완료:  (id=4094)
+2026-05-14 17:11:56,211 INFO Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:11:56,521 INFO DeepL API response status_code=456 url=https://api-free.deepl.com/v2/translate
+2026-05-14 17:11:56,522 WARNING 배치 번역 실패: Quota for this billing period has been exceeded, message: Quota exceeded
+2026-05-14 17:11:56,537 INFO 저장 완료:  (id=4095)
+2026-05-14 17:11:58,109 INFO 완료 — 성공: 478, 실패: 0
