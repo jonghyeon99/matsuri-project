@@ -239,6 +239,25 @@ export default function MatsuriModal({ matsuri: m, onClose }: Props) {
                                 공식 사이트 보기 →
                             </a>
                         )}
+                        {/* 구글맵 */}
+                        {(m.addressKo || m.venueKo) && (
+                            <div style={{ marginTop: 28 }}>
+                                <h3 style={{
+                                    fontSize: 16, fontWeight: 700,
+                                    marginBottom: 12,
+                                    fontFamily: "Shippori Mincho, serif",
+                                }}>지도</h3>
+                                <iframe
+                                    width="100%"
+                                    height="300"
+                                    style={{ border: 0, borderRadius: 4 }}
+                                    loading="lazy"
+                                    allowFullScreen
+                                    referrerPolicy="no-referrer-when-downgrade"
+                                    src={`https://www.google.com/maps/embed/v1/place?key=${process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY}&q=${encodeURIComponent((m.venueKo || "") + " " + (m.addressKo || "") + " 愛知県")}&language=ko`}
+                                />
+                            </div>
+                        )}
                     </div>
                 </div>
             </div>
