@@ -3,6 +3,7 @@ import { Noto_Sans_KR } from "next/font/google";
 import "./globals.css";
 import Header from "./components/Header";
 import MatsuriDecor from "./components/MatsuriDecor";
+import Footer from "./components/Footer";
 
 const notoSansKR = Noto_Sans_KR({
   subsets: ["latin"],
@@ -37,6 +38,7 @@ export default function RootLayout({
         <MatsuriDecor />
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );

@@ -11,7 +11,7 @@ import java.util.List;
 @Repository
 public interface MatsuriRepository extends JpaRepository<Matsuri, Long> {
 
-    // 오늘 기준 진행 중인 마츠리 (start_date <= 오늘 <= end_date)
+    // 오늘 기준 진행 중인 마츠리
     @Query("SELECT m FROM Matsuri m WHERE m.startDate <= :today AND m.endDate >= :today AND m.isEnded = 0 ORDER BY m.startDate ASC")
     List<Matsuri> findOngoing(@Param("today") LocalDate today);
 
@@ -30,4 +30,8 @@ public interface MatsuriRepository extends JpaRepository<Matsuri, Long> {
     // 특정 날짜에 진행 중인 마츠리
     @Query("SELECT m FROM Matsuri m WHERE m.startDate <= :date AND m.endDate >= :date AND m.isEnded = 0 ORDER BY m.startDate ASC")
     List<Matsuri> findByDate(@Param("date") LocalDate date);
+
+    // 검색 기능
+    @Query("SELECT m FROM Matsuri m WHERE (m.nameKo LIKE %:keyword% OR m.shortDescKo LIKE %:keyword% OR m.cityKo LIKE %:keyword%) AND m.isEnded = 0 ORDER BY m.startDate ASC")
+    List<Matsuri> findByKeyword(@Param("keyword") String keyword);
 }

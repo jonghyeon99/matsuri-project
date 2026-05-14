@@ -58,4 +58,10 @@ public class MatsuriController {
         LocalDate localDate = LocalDate.parse(date);
         return matsuriRepository.findByDate(localDate);
     }
+
+    // 검색 기능
+    @GetMapping("/search")
+    public List<Matsuri> search(@RequestParam String keyword) {
+        return matsuriRepository.findByKeyword(keyword);
+    }
 }

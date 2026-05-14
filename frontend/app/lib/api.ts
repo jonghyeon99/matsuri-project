@@ -71,3 +71,10 @@ export async function fetchByDate(date: string): Promise<Matsuri[]> {
     if (!res.ok) throw new Error("Failed to fetch by date");
     return res.json();
 }
+
+// 검색 기능
+export async function fetchByKeyword(keyword: string): Promise<Matsuri[]> {
+    const res = await fetch(`${API_BASE}/api/matsuris/search?keyword=${encodeURIComponent(keyword)}`);
+    if (!res.ok) throw new Error("Failed to fetch by keyword");
+    return res.json();
+}
