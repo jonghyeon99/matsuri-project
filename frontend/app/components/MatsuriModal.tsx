@@ -167,24 +167,20 @@ export default function MatsuriModal({ matsuri: m, onClose }: Props) {
                         </div>
 
                         {/* 상세 설명 */}
-                        {m.longDescKo && (
+                        {m.shortDescKo && (
                             <div style={{ marginBottom: 28 }}>
                                 <h3 style={{
                                     fontSize: 16, fontWeight: 700,
                                     marginBottom: 12,
                                     fontFamily: "Shippori Mincho, serif",
                                 }}>소개</h3>
-                                <div style={{ fontSize: 14, lineHeight: 1.9, color: "var(--sumi-2)" }}>
-                                    {m.longDescKo
-                                        .split(/(?<=[。！？\.\!\?])\s*/)
-                                        .filter(Boolean)
-                                        .map((sentence, i) => (
-                                            <p key={i} style={{ marginBottom: 8 }}>
-                                                {sentence}
-                                            </p>
-                                        ))
-                                    }
-                                </div>
+                                <p style={{
+                                    fontSize: 14, lineHeight: 1.9,
+                                    color: "var(--sumi-2)",
+                                    whiteSpace: "pre-line",
+                                }}>
+                                    {m.shortDescKo}
+                                </p>
                             </div>
                         )}
 
