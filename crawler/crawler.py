@@ -7,7 +7,7 @@
 import requests
 import requests as req_lib
 from bs4 import BeautifulSoup
-import oracledb
+import psycopg2
 import time
 import logging
 from datetime import datetime, date
@@ -20,9 +20,12 @@ load_dotenv()
 
 BASE_URL = "https://aichinow.pref.aichi.jp"
 DB_CONFIG = {
+    "host": os.getenv("DB_HOST"),
+    "port": int(os.getenv("DB_PORT", 5432)),
+    "dbname": os.getenv("DB_NAME"),
     "user": os.getenv("DB_USER"),
     "password": os.getenv("DB_PASSWORD"),
-    "dsn": os.getenv("DB_DSN"),
+    "sslmode": "require",
 }
 REQUEST_DELAY = 1.5
 HEADERS = {
@@ -339,38 +342,35 @@ def translate_event(event: dict) -> dict:
 # 4단계: Oracle DB 저장 (_ko 필드만)
 # ─────────────────────────────────────────
 UPSERT_SQL = """
-MERGE INTO matsuris m
-USING (SELECT :detail_id AS detail_id FROM dual) src
-ON (m.detail_id = src.detail_id)
-WHEN MATCHED THEN UPDATE SET
-    name_ko          = :name_ko,
-    city_ko          = :city_ko,
-    is_ended         = :is_ended,
-    image_urls       = :image_urls,
-    short_desc_ko    = :short_desc_ko,
-    long_desc_ko     = :long_desc_ko,
-    event_dates_ko   = :event_dates_ko,
-    event_time_ko    = :event_time_ko,
-    venue_ko         = :venue_ko,
-    address_ko       = :address_ko,
-    contact          = :contact,
-    access_train_ko  = :access_train_ko,
-    access_car_ko    = :access_car_ko,
-    related_url      = :related_url,
-    start_date       = :start_date,
-    end_date         = :end_date,
-    crawled_at       = :crawled_at
-WHEN NOT MATCHED THEN INSERT (
+INSERT INTO matsuris (
     detail_id, source_url, name_ko, city_ko, is_ended, image_urls,
     short_desc_ko, long_desc_ko, event_dates_ko, event_time_ko,
     venue_ko, address_ko, contact, access_train_ko, access_car_ko,
     related_url, start_date, end_date, crawled_at
 ) VALUES (
-    :detail_id, :source_url, :name_ko, :city_ko, :is_ended, :image_urls,
-    :short_desc_ko, :long_desc_ko, :event_dates_ko, :event_time_ko,
-    :venue_ko, :address_ko, :contact, :access_train_ko, :access_car_ko,
-    :related_url, :start_date, :end_date, :crawled_at
+    %(detail_id)s, %(source_url)s, %(name_ko)s, %(city_ko)s, %(is_ended)s, %(image_urls)s,
+    %(short_desc_ko)s, %(long_desc_ko)s, %(event_dates_ko)s, %(event_time_ko)s,
+    %(venue_ko)s, %(address_ko)s, %(contact)s, %(access_train_ko)s, %(access_car_ko)s,
+    %(related_url)s, %(start_date)s, %(end_date)s, %(crawled_at)s
 )
+ON CONFLICT (detail_id) DO UPDATE SET
+    name_ko         = EXCLUDED.name_ko,
+    city_ko         = EXCLUDED.city_ko,
+    is_ended        = EXCLUDED.is_ended,
+    image_urls      = EXCLUDED.image_urls,
+    short_desc_ko   = EXCLUDED.short_desc_ko,
+    long_desc_ko    = EXCLUDED.long_desc_ko,
+    event_dates_ko  = EXCLUDED.event_dates_ko,
+    event_time_ko   = EXCLUDED.event_time_ko,
+    venue_ko        = EXCLUDED.venue_ko,
+    address_ko      = EXCLUDED.address_ko,
+    contact         = EXCLUDED.contact,
+    access_train_ko = EXCLUDED.access_train_ko,
+    access_car_ko   = EXCLUDED.access_car_ko,
+    related_url     = EXCLUDED.related_url,
+    start_date      = EXCLUDED.start_date,
+    end_date        = EXCLUDED.end_date,
+    crawled_at      = EXCLUDED.crawled_at
 """
 
 
@@ -378,7 +378,7 @@ def save_to_db(event: dict, translated: dict, conn):
     data = {
         "detail_id":      event["detail_id"],
         "source_url":     event["source_url"],
-        "is_ended":       event["is_ended"],
+        "is_ended":       1 if event["is_ended"] else 0,
         "image_urls":     event["image_urls"],
         "contact":        event["contact"],
         "related_url":    event["related_url"],
@@ -412,7 +412,7 @@ def run(mode: str = "full"):
     months = get_target_months(mode)
     all_ids = collect_all_ids(months)
 
-    conn = oracledb.connect(**DB_CONFIG)
+    conn = psycopg2.connect(**DB_CONFIG)
 
     success, fail = 0, 0
     for detail_id in all_ids:

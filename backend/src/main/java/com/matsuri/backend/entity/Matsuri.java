@@ -7,7 +7,7 @@ import java.time.LocalDate;
 import java.time.LocalDateTime;
 
 @Entity
-@Table(name = "MATSURIS")
+@Table(name = "matsuris")
 @Getter
 @Setter
 public class Matsuri {
@@ -16,61 +16,60 @@ public class Matsuri {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(name = "DETAIL_ID", unique = true, nullable = false)
+    @Column(name = "detail_id", unique = true, nullable = false)
     private Long detailId;
 
-    @Column(name = "SOURCE_URL")
+    @Column(name = "source_url")
     private String sourceUrl;
 
-    @Column(name = "NAME_KO")
+    @Column(name = "name_ko")
     private String nameKo;
 
-    @Column(name = "CITY_KO")
+    @Column(name = "city_ko")
     private String cityKo;
 
-    @Column(name = "IS_ENDED")
+    @Column(name = "is_ended")
     private Integer isEnded;
 
-    @Column(name = "IMAGE_URLS")
+    @Column(name = "image_urls")
     private String imageUrls;
 
-    @Column(name = "SHORT_DESC_KO")
+    @Column(name = "short_desc_ko")
     private String shortDescKo;
 
-    @Lob
-    @Column(name = "LONG_DESC_KO")
+    @Column(name = "long_desc_ko", columnDefinition = "TEXT")
     private String longDescKo;
 
-    @Column(name = "EVENT_DATES_KO")
+    @Column(name = "event_dates_ko")
     private String eventDatesKo;
 
-    @Column(name = "EVENT_TIME_KO")
+    @Column(name = "event_time_ko")
     private String eventTimeKo;
 
-    @Column(name = "VENUE_KO")
+    @Column(name = "venue_ko")
     private String venueKo;
 
-    @Column(name = "ADDRESS_KO")
+    @Column(name = "address_ko")
     private String addressKo;
 
-    @Column(name = "CONTACT")
+    @Column(name = "contact")
     private String contact;
 
-    @Column(name = "ACCESS_TRAIN_KO")
+    @Column(name = "access_train_ko")
     private String accessTrainKo;
 
-    @Column(name = "ACCESS_CAR_KO")
+    @Column(name = "access_car_ko")
     private String accessCarKo;
 
-    @Column(name = "RELATED_URL")
+    @Column(name = "related_url")
     private String relatedUrl;
 
-    @Column(name = "START_DATE")
+    @Column(name = "start_date")
     private LocalDate startDate;
 
-    @Column(name = "END_DATE")
+    @Column(name = "end_date")
     private LocalDate endDate;
 
-    @Column(name = "CRAWLED_AT")
+    @Column(name = "crawled_at")
     private LocalDateTime crawledAt;
 }
