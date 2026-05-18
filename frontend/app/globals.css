@@ -1,0 +1,414 @@
+/* ===== Matsuri Aichi — 和の意匠 ===== */
+:root {
+  --red: #b6332b;
+  --red-deep: #8a1f1a;
+  --red-soft: #d96256;
+  --sumi: #1a1410;
+  --sumi-2: #3a302a;
+  --washi: #f3ead8;
+  --washi-2: #ebe0c8;
+  --washi-3: #e0d2b3;
+  --washi-edge: #c8b88d;
+  --gold: #a87f3e;
+  --gold-soft: #c9a55a;
+  --indigo: #2a3f5f;
+  --indigo-soft: #486488;
+  --ink-faint: rgba(26, 20, 16, 0.55);
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+html, body {
+  background: var(--washi);
+  color: var(--sumi);
+  font-family: "Noto Sans KR", "Shippori Mincho", system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-feature-settings: "palt";
+  overflow-x: hidden;
+}
+
+body {
+  min-height: 100vh;
+  background: #ffffff;
+  position: relative;
+}
+
+/* ===== Matsuri background decoration ===== */
+/* Decoration layer — sits behind everything, fixed to viewport, no interaction */
+.matsuri-decor {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  overflow: hidden;
+}
+
+/* Lantern garland — fixed at top of viewport */
+.lantern-garland {
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 130px;
+}
+.lantern-garland svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.lantern-garland .lantern-body {
+  transform-origin: 50% -10%;
+  animation: lanternSway2 5s ease-in-out infinite;
+}
+.lantern-garland g:nth-child(2n) .lantern-body { animation-delay: -0.9s; animation-duration: 4.4s; }
+.lantern-garland g:nth-child(3n) .lantern-body { animation-delay: -1.7s; animation-duration: 5.6s; }
+.lantern-garland g:nth-child(4n) .lantern-body { animation-delay: -2.3s; }
+
+@keyframes lanternSway2 {
+  0%, 100% { transform: rotate(-2.2deg); }
+  50%      { transform: rotate(2.2deg); }
+}
+
+/* Confetti / 紙吹雪 — small colored squares drifting down */
+.confetti {
+  position: absolute;
+  width: 9px; height: 13px;
+  border-radius: 1px;
+  opacity: 0.45;
+  animation: confettiFall linear infinite;
+  will-change: transform;
+}
+@keyframes confettiFall {
+  0%   { transform: translate(-10px, -10vh) rotate(0deg); }
+  100% { transform: translate(30px, 110vh) rotate(540deg); }
+}
+
+/* Side faded kanji — subtle watermark */
+.edge-kanji {
+  position: absolute;
+  font-family: "Shippori Mincho", serif;
+  font-weight: 800;
+  color: #b6332b;
+  user-select: none;
+  font-size: 96px;
+  line-height: 1;
+  letter-spacing: 0.1em;
+  opacity: 0.04;
+  writing-mode: vertical-rl;
+}
+.edge-kanji.left  { top: 280px;    left: 6px; }
+.edge-kanji.right { bottom: 120px; right: 6px; color: #1a1410; opacity: 0.035; }
+
+/* Corner firework spark */
+.corner-spark {
+  position: absolute;
+  pointer-events: none;
+}
+.corner-spark.tl { top: 200px;    left: -50px;  }
+.corner-spark.br { bottom: -50px; right: -50px; }
+
+/* Make sure content layers above */
+header, main, footer { position: relative; z-index: 1; }
+
+h1, h2, h3, .jp, .brush {
+  font-family: "Shippori Mincho", "Noto Serif JP", serif;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+/* ===== Reusable surfaces ===== */
+.washi-card {
+  background:
+    radial-gradient(circle at 30% 20%, rgba(168, 127, 62, 0.08) 0 1px, transparent 2px),
+    radial-gradient(circle at 70% 80%, rgba(138, 31, 26, 0.05) 0 1px, transparent 2px),
+    linear-gradient(180deg, #faf3e1 0%, #f3ead8 100%);
+  border: 1px solid var(--washi-edge);
+  border-radius: 4px;
+  box-shadow:
+    0 1px 0 rgba(26, 20, 16, 0.04),
+    0 12px 28px -16px rgba(26, 20, 16, 0.25);
+  position: relative;
+}
+
+.washi-card.torn::before,
+.washi-card.torn::after {
+  content: "";
+  position: absolute;
+  left: 0; right: 0;
+  height: 6px;
+  background-image:
+    radial-gradient(circle at 5px 6px, var(--washi) 4px, transparent 5px),
+    radial-gradient(circle at 15px 4px, var(--washi) 3px, transparent 4px),
+    radial-gradient(circle at 25px 5px, var(--washi) 4px, transparent 5px);
+  background-size: 30px 6px;
+  background-repeat: repeat-x;
+}
+.washi-card.torn::before { top: -1px; }
+.washi-card.torn::after { bottom: -1px; transform: scaleY(-1); }
+
+/* Vermillion seal — small red square with character */
+.seal {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  background: var(--red);
+  color: var(--washi);
+  font-family: "Shippori Mincho", serif;
+  font-weight: 700;
+  border-radius: 4px;
+  box-shadow:
+    inset 0 0 0 2px var(--washi),
+    inset 0 0 0 3px var(--red),
+    0 2px 6px rgba(138, 31, 26, 0.35);
+  transform: rotate(-2deg);
+  letter-spacing: -0.05em;
+}
+.seal.round {
+  border-radius: 50%;
+  box-shadow:
+    inset 0 0 0 2px var(--washi),
+    inset 0 0 0 3px var(--red),
+    0 2px 6px rgba(138, 31, 26, 0.35);
+}
+
+/* Brush divider */
+.brush-line {
+  display: block;
+  height: 6px;
+  background:
+    radial-gradient(ellipse at left, var(--sumi) 0 40%, transparent 70%);
+  width: 100%;
+  opacity: 0.85;
+  border-radius: 50% 50% 100% 0 / 100% 80% 100% 0;
+  filter: blur(0.3px);
+}
+.brush-line.gold {
+  background: radial-gradient(ellipse at left, var(--gold) 0 40%, transparent 70%);
+}
+
+/* Vertical title for traditional feel */
+.tate {
+  writing-mode: vertical-rl;
+  font-family: "Shippori Mincho", serif;
+  letter-spacing: 0.4em;
+}
+
+/* Generic button */
+.btn {
+  appearance: none;
+  border: 1px solid var(--sumi);
+  background: var(--washi);
+  color: var(--sumi);
+  font-family: inherit;
+  font-size: 14px;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 2px;
+  transition: all 0.18s ease;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+}
+.btn:hover {
+  background: var(--sumi);
+  color: var(--washi);
+}
+.btn.primary {
+  background: var(--red);
+  color: var(--washi);
+  border-color: var(--red-deep);
+}
+.btn.primary:hover {
+  background: var(--red-deep);
+}
+.btn.ghost {
+  border-color: transparent;
+}
+
+/* Scrollbar — subtle */
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { background: var(--washi); }
+::-webkit-scrollbar-thumb { background: var(--washi-edge); border-radius: 8px; }
+::-webkit-scrollbar-thumb:hover { background: var(--gold); }
+
+/* placeholder image — striped washi swatch */
+.placeholder-img {
+  position: relative;
+  overflow: hidden;
+  background: repeating-linear-gradient(
+    135deg,
+    var(--washi-2) 0 12px,
+    var(--washi-3) 12px 14px
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--ink-faint);
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-size: 11px;
+  text-align: center;
+  letter-spacing: 0.05em;
+}
+.placeholder-img::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, transparent 60%, rgba(26, 20, 16, 0.15));
+  pointer-events: none;
+}
+
+/* Slide image variants — gradients standing in for festival imagery */
+.festival-img {
+  position: relative;
+  overflow: hidden;
+}
+.festival-img .scrim {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, transparent 30%, rgba(0,0,0,0.7));
+}
+
+/* lanterns */
+.img-lantern {
+  background:
+    radial-gradient(ellipse at 30% 40%, rgba(255, 200, 120, 0.7) 0 12%, transparent 14%),
+    radial-gradient(ellipse at 60% 30%, rgba(255, 180, 100, 0.6) 0 8%, transparent 11%),
+    radial-gradient(ellipse at 80% 60%, rgba(255, 210, 130, 0.55) 0 10%, transparent 13%),
+    radial-gradient(ellipse at 20% 75%, rgba(255, 195, 110, 0.5) 0 9%, transparent 12%),
+    radial-gradient(ellipse at 50% 80%, rgba(255, 180, 100, 0.5) 0 8%, transparent 11%),
+    linear-gradient(180deg, #2a1410 0%, #3a1810 40%, #1a0a06 100%);
+}
+.img-fireworks {
+  background:
+    radial-gradient(circle at 25% 30%, rgba(255, 220, 130, 0.5) 0 2%, rgba(255, 100, 80, 0.3) 4%, transparent 8%),
+    radial-gradient(circle at 70% 40%, rgba(200, 220, 255, 0.4) 0 2%, rgba(120, 160, 220, 0.25) 5%, transparent 9%),
+    radial-gradient(circle at 50% 70%, rgba(255, 180, 100, 0.4) 0 2%, transparent 7%),
+    linear-gradient(180deg, #0a1428 0%, #1a2848 60%, #2a1438 100%);
+}
+.img-dashi { /* float / wooden cart */
+  background:
+    linear-gradient(135deg, rgba(168, 127, 62, 0.5) 0%, transparent 60%),
+    linear-gradient(180deg, #4a2a1a 0%, #8a4a2a 30%, #b6332b 60%, #5a1a14 100%);
+}
+.img-river {
+  background: linear-gradient(180deg, #2a3f5f 0%, #486488 50%, #1a2a4a 100%);
+}
+.img-shrine {
+  background:
+    radial-gradient(circle at 50% 40%, rgba(255, 200, 100, 0.3) 0%, transparent 60%),
+    linear-gradient(180deg, #1a1410 0%, #3a1814 40%, #b6332b 100%);
+}
+.img-snow {
+  background: linear-gradient(180deg, #d8dde8 0%, #f0f3f8 50%, #b8c0d0 100%);
+}
+.img-cherry {
+  background:
+    radial-gradient(ellipse at 30% 30%, rgba(255, 210, 220, 0.6) 0 8%, transparent 12%),
+    radial-gradient(ellipse at 70% 50%, rgba(255, 220, 230, 0.5) 0 7%, transparent 11%),
+    linear-gradient(180deg, #f5d8dd 0%, #e8a8b8 70%, #c87890 100%);
+}
+.img-summer {
+  background: linear-gradient(180deg, #ffd07a 0%, #ff8a4a 50%, #c8362a 100%);
+}
+.img-autumn {
+  background: linear-gradient(180deg, #f8d878 0%, #e88a3a 50%, #8a2a18 100%);
+}
+
+/* ===== Animations ===== */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(12px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+@keyframes scaleIn {
+  from { opacity: 0; transform: scale(0.96); }
+  to   { opacity: 1; transform: scale(1); }
+}
+@keyframes lanternSway {
+  0%, 100% { transform: rotate(-2deg); }
+  50%      { transform: rotate(2deg); }
+}
+@keyframes pinPulse {
+  0%, 100% { transform: scale(1); }
+  50%      { transform: scale(1.15); }
+}
+
+.fade-up { animation: fadeUp 0.5s ease both; }
+.fade-in { animation: fadeIn 0.4s ease both; }
+.scale-in { animation: scaleIn 0.35s ease both; }
+
+/* ===== Leaflet map customizations ===== */
+.matsuri-pin-wrap, .city-marker-wrap {
+  background: transparent !important;
+  border: none !important;
+}
+.matsuri-pin {
+  transform-origin: 50% 100%;
+  transition: transform 0.18s ease;
+  cursor: pointer;
+}
+.matsuri-pin:hover {
+  transform: scale(1.15);
+}
+.matsuri-pin.sel {
+  animation: pinPulse 1.4s ease-in-out infinite;
+}
+
+.city-marker {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3px 8px;
+  background: rgba(243, 234, 216, 0.92);
+  border: 1px solid var(--washi-edge);
+  border-radius: 2px;
+  font-family: "Shippori Mincho", serif;
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--sumi);
+  white-space: nowrap;
+  box-shadow: 0 2px 4px rgba(26, 20, 16, 0.15);
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.city-marker:hover {
+  background: var(--red);
+  color: var(--washi);
+  border-color: var(--red-deep);
+  transform: scale(1.08);
+}
+.city-marker::before {
+  content: "";
+  width: 5px; height: 5px;
+  background: var(--red);
+  border-radius: 50%;
+  margin-right: 5px;
+  display: inline-block;
+}
+.city-marker:hover::before {
+  background: var(--washi);
+}
+
+.leaflet-popup-content-wrapper {
+  border-radius: 4px !important;
+  background: #faf3e1 !important;
+  border: 1px solid var(--washi-edge);
+  box-shadow: 0 10px 30px -10px rgba(26, 20, 16, 0.4) !important;
+}
+.leaflet-popup-tip {
+  background: #faf3e1 !important;
+}
+.leaflet-popup-content {
+  margin: 14px 16px !important;
+  font-family: "Noto Sans KR", sans-serif !important;
+}
+.leaflet-container {
+  font-family: "Noto Sans KR", sans-serif;
+  background: #c5d1de !important;
+}
+.leaflet-control-attribution {
+  font-size: 9.5px !important;
+  background: rgba(243, 234, 216, 0.8) !important;
+}
