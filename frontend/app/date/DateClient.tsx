@@ -85,7 +85,6 @@ export default function DateClient() {
                         cursor: "pointer",
                         color: "var(--sumi)",
                         width: 200,
-                        colorScheme: "light",
                     }}
                 />
                 <button
