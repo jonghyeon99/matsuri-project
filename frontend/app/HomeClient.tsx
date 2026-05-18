@@ -79,7 +79,7 @@ export default function HomeClient({ ongoing, upcoming }: Props) {
                     <div className="washi-card nav-card" style={{
                         padding: 28, minHeight: 180,
                         background: "linear-gradient(135deg, #faf3e1 0%, #ebe0c8 100%)",
-                        cursor: "pointer",
+                        color: "linear-gradient(135deg, #b6332b 0%, #8a1f1a 100%)", cursor: "pointer",
                     }}>
                         <div style={{ fontSize: 36, marginBottom: 12 }}>📅</div>
                         <div style={{ fontFamily: "Shippori Mincho, serif", fontSize: 13, letterSpacing: "0.4em", opacity: 0.75, marginBottom: 8 }}>日付から探す</div>
