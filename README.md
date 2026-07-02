@@ -5,6 +5,8 @@
 
 🌐 **[사이트 바로가기](https://matsuri-project.vercel.app)**
 
+# 서버 종료하였습니다.
+
 ---
 
 ## 주요 기능
